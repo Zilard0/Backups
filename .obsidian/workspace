@@ -184,6 +184,14 @@
               "type": "graph-analysis",
               "state": {}
             }
+          },
+          {
+            "id": "47b78ab8ee0b3e53",
+            "type": "leaf",
+            "state": {
+              "type": "graph-analysis",
+              "state": {}
+            }
           }
         ],
         "currentTab": 4
@@ -196,14 +204,14 @@
   "active": "5e89c66742e90b44",
   "lastOpenFiles": [
     "Summer 2022/CHEM4502/Chapters/Chapter 13.md",
-    "Summer 2022/CHEM4502/Chapters/Chapter 8.md",
-    "Summer 2022/CHEM4502/Chapters/Chapter 10.md",
     "Summer 2022/CHEM4502/Chapters/Chapter 6.md",
+    "Summer 2022/CHEM4502/Chapters/Chapter 5.md",
+    "Summer 2022/CHEM4502/Chapters/Chapter 8.md",
     "Summer 2022/CHEM4502/Chapters/Chapter 2.md",
+    "Testing the new iPad keyboard.md",
+    "Summer 2022/CHEM4502/Chapters/Chapter 10.md",
     "Inbox/2022-06-28 01-58-02.excalidraw.md",
     "Summer 2022/CHEM4502/Chapters/Chatper 9.md",
-    "Summer 2022/CHEM4502/Chapters/Chatpers 3 and 4.md",
-    "Summer 2022/CHEM4502/Chapters/Chapter 5.md",
-    "Summer 2022/CHEM4502/Chapters/Chapter 1.md"
+    "Summer 2022/CHEM4502/Chapters/Chatpers 3 and 4.md"
   ]
 }
