@@ -233,12 +233,6 @@
 }
 */
 
-html,
-body {
-  font-size: 16px !important;
-  font-family: var(
-    --font-monospace
-  ); /** Remove this to return body font back to normal */
 
   /** Norse rune font for hilarity Comes from dafont.com */
   --custom-font: "Norse";

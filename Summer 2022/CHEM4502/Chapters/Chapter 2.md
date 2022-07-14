@@ -29,7 +29,7 @@ $$v=\frac{\omega}{2\pi}$$
 #### Classical Wave Equation
 $$\frac{\partial^{2} f(x,t)}{\partial x^{2}}=\frac{\partial^{2} f(x,t)}{u^2\partial t^{2}}$$
 * $u$ = speed of wave
-* The solutions to the wave eqauation are either imaignary, zero, or sums of sines and cosines.
+* The solutions to the wave equation are either imaginary, zero, or sums of sines and cosines.
 * Add picture here from video later
 * 
 #### Solutions to Classical Wave Equation
