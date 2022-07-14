@@ -1,0 +1,17 @@
+{
+  "legacyEditor": false,
+  "livePreview": true,
+  "pdfExportSettings": {
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 88
+  },
+  "readableLineLength": false,
+  "promptDelete": false,
+  "fileSortOrder": "alphabetical",
+  "spellcheck": true,
+  "newFileLocation": "current",
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "Attachs"
+}

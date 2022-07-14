@@ -1,0 +1,1 @@
+\boldsymbol{<% tp.file.cursor(0) %>}

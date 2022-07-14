@@ -1,0 +1,161 @@
+{
+  "main": {
+    "id": "66ce9265b499b5a8",
+    "type": "split",
+    "children": [
+      {
+        "id": "c420031c76824d9a",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6ca4b52d0a51c279",
+    "type": "split",
+    "children": [
+      {
+        "id": "587a7be0140f96a2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f5d7d4248be5132e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "5dc8196e80d2ad63",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#🧠️/📝️/👨‍🏫",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 247.5
+  },
+  "right": {
+    "id": "dacb50987ea48dbb",
+    "type": "split",
+    "children": [
+      {
+        "id": "eb69b9047e1faf07",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "56c0f7f330caa94e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "75c603b62c57179f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "5032413fd00bc0aa",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "af9d565a97bbeda8",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {}
+            }
+          },
+          {
+            "id": "551c52e2d9436e54",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "11e038cce045251c",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "3773d5a806961e5e",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "3454b6cd9b75d930",
+            "type": "leaf",
+            "state": {
+              "type": "graph-analysis",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "c420031c76824d9a",
+  "lastOpenFiles": [
+    "Summer 2022/HSCI 1815/L1-Readings and Notes.md",
+    "Summer 2022/HSCI 1815/HSCI 1815.md",
+    "Recording 20220606124528.webm",
+    "Summer 2022/HSCI 1815/Media/Pasted image 20220606115217.png",
+    "Templates/Inputs/Podcast.md",
+    "Summer 2022/HSCI 1815/Media/Syllabus.pdf",
+    "Summer 2022/HSCI 1815/L1-Readings and Notes-LAPTOP-RB4P5KLQ.md",
+    "Templates/Inputs/Lectemp.md",
+    "Templates/Inputs/Untitled.md",
+    "Templates/Inputs/CourseTemp.md"
+  ]
+}

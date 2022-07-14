@@ -1,0 +1,201 @@
+{
+  "main": {
+    "id": "66ce9265b499b5a8",
+    "type": "split",
+    "children": [
+      {
+        "id": "3cd2562275b84d9e",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Summer 2022/CHEM4502/Chapters/Chapter 10.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6ca4b52d0a51c279",
+    "type": "split",
+    "children": [
+      {
+        "id": "587a7be0140f96a2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f5d7d4248be5132e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "5dc8196e80d2ad63",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0e32080129469e62",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 287.5
+  },
+  "right": {
+    "id": "dacb50987ea48dbb",
+    "type": "split",
+    "children": [
+      {
+        "id": "eb69b9047e1faf07",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "56c0f7f330caa94e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Summer 2022/CHEM4502/Chapters/Chapter 10.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "75c603b62c57179f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Summer 2022/CHEM4502/Chapters/Chapter 10.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "5032413fd00bc0aa",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "af9d565a97bbeda8",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {}
+            }
+          },
+          {
+            "id": "551c52e2d9436e54",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "11e038cce045251c",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "3773d5a806961e5e",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "3454b6cd9b75d930",
+            "type": "leaf",
+            "state": {
+              "type": "graph-analysis",
+              "state": {}
+            }
+          },
+          {
+            "id": "f51aeacba6cd7fba",
+            "type": "leaf",
+            "state": {
+              "type": "graph-analysis",
+              "state": {}
+            }
+          },
+          {
+            "id": "cdf5d0bd03960f4a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Summer 2022/CHEM4502/Chapters/Chapter 10.md"
+              }
+            }
+          },
+          {
+            "id": "24c19ccd0bf97444",
+            "type": "leaf",
+            "state": {
+              "type": "graph-analysis",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "3cd2562275b84d9e",
+  "lastOpenFiles": [
+    "Summer 2022/CHEM4502/Chapters/Chapter 13.md",
+    "Summer 2022/CHEM4502/Chapters/Chapter 8.md",
+    "Summer 2022/CHEM4502/Chapters/Chapter 6.md",
+    "Summer 2022/CHEM4502/Chapters/Chapter 2.md",
+    "Summer 2022/CHEM4502/Chapters/Chapter 5.md",
+    "Summer 2022/CHEM4502/Chapters/Chapter 1.md",
+    "Summer 2022/CHEM4502/Chapters/Chapter 10.md",
+    "Summer 2022/CHEM4502/Chapters/Math Chapter B.md",
+    "Summer 2022/CHEM4502/Chapters/Chatper 9.md",
+    "Summer 2022/CHEM4502/Summaries/Quiz 2 Summary.md"
+  ]
+}
