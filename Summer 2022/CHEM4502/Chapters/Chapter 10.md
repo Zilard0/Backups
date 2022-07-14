@@ -36,3 +36,10 @@ ___
 * **The result is two sp HOs***
 ![[Pasted image 20220714073953.png|300]]
 ![[Pasted image 20220714073825.png|400]]
+
+### Tips for Drawing MOs from AOs
+* What AOs to use? Also AOs used = MOs sketched
+* Make bonding/antibonding pairs
+* Hydrogen atoms/exterior atoms in groups 
+* Sketch baby
+
