@@ -11,7 +11,7 @@
 6. Birth control and laws.
 7. Birth control and forced sterilization
 8. Birth control and movements
-9. Birth control and superiority of the Nordic race. (2paras) (Put this before Para 8)
+9. Birth control and superiority of the Nordic race. (2paras) (Put this before Para 6)
 10. Conclusion (mention the babies! Don't ya dare forget!)
   
 ## Weird Additional Notes
@@ -30,7 +30,7 @@
 	* Primary Source
 	* Movie
 * Paragraph 6:
-	* Third source about anti-marraige laws
+	* Third source about anti-marriage laws
 * Paragraph 7:
 	* Primary source maybe 
 	* Buck v. Bell (Mention in passing)
