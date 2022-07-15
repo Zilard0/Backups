@@ -2,10 +2,14 @@
 tags: #Journal
 ---
 
-## On This Day...
+#### << [[<% tp.date.now("YYYY-MM-DD", -1)%>]] | [[<% tp.date.now("YYYY-MM-DD", 1) %>]] >>
 
-[[2021-07-14]]
-[[2022-07-13]] <== <button class="date_button_today">Today</button> ==> [[2022-07-15]]
+# <% tp.date.now("dddd, MMMM DD, YYYY") %>
+
+### This day last year
+
+![[<% tp.date.now("YYYY-MM-DD", "P-1Y") %>]]
+
 
 ---
 
