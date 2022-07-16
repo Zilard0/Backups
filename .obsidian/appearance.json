@@ -1,8 +1,11 @@
 {
   "theme": "obsidian",
-  "cssTheme": "Bryans Gruvbox - Copy - Copy - Testing demos stuff",
-  "baseFontSize": 15,
+  "cssTheme": "Obsidianite",
+  "baseFontSize": 14,
   "translucency": false,
-  "textFontFamily": "Lora",
-  "interfaceFontFamily": "Lora"
+  "textFontFamily": "",
+  "interfaceFontFamily": "",
+  "enabledCssSnippets": [
+    "latex"
+  ]
 }
