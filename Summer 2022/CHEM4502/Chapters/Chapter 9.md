@@ -37,7 +37,7 @@ Created:  [[2022-07-12]]
 		* $\psi_{+}=c_{1}\phi_{1s,A}+c_{2}\phi_{1s,B}$
 		* $\psi_{+}=c_{1}\phi_{1s,A}-c_{2}\phi_{1s,B}$
 	* Energy of Wavefunction:
-	* $$E=\frac{\int\psi^{*}\hat H\psi dr}{\int\psi^{*}\psi dr}$$
+	 $$E=\frac{\int\psi^{*}\hat H\psi dr}{\int\psi^{*}\psi dr}$$
 * $E_{+}$ is more stable than separated fragments, leads to chemical bond
 * $E_{+}$ is more stable than separated fragments, leads to chemical bond
 
