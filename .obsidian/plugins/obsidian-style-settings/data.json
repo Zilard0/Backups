@@ -23,5 +23,7 @@
   "blue-topaz-theme@@accent-strong@@light": "#FF0000",
   "blue-topaz-theme@@mjx-math-color@@dark": "#FFA200",
   "latex-pdf-css@@numbered-math": false,
-  "latex-pdf-css@@image-alt-text": false
+  "latex-pdf-css@@image-alt-text": false,
+  "blue-topaz-theme@@print-strong-color@@light": "#FF0000",
+  "blue-topaz-theme@@print-strong-color@@dark": "#FF0000"
 }

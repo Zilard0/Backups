@@ -5,7 +5,6 @@ aliases:
 ---
 # CHEM4502 - HW4
 Created:  [[2022-07-07]]
-___
 
 ### Chapter 6
 **6.7: Show that the first few associated Legendre functions given in Table 6.2 are solutions to Equation 6.23 and that they satisfy the orthonormality condition, Equation 6.28.**

@@ -40,7 +40,14 @@ Created:  [[2022-07-12]]
 	 $$E=\frac{\int\psi^{*}\hat H\psi dr}{\int\psi^{*}\psi dr}$$
 * $E_{+}$ is more stable than separated fragments, leads to chemical bond
 * $E_{+}$ is more stable than separated fragments, leads to chemical bond
-
+* J is repulsive, K is attractive
+* Bonding can only be explained with K, and is therefore only adequately described by QM
+* $E_{+}<E_{-}$, so ground state has a bond at every R
+* **Note that multi-electron systems are impossible to solve**. However, we can approximate the solutions of them by using multiple single electron wavefunctions ($H_{2}$ for example) 
+* The spin does not affect the approximation that much btw
+* LCAO-MOs are populated according to Pauli Exclusion Principle
+* MO theory also predicts bond orders and magnetism
+* Magnetism: Unpaired electrons
 ### Types of MOs
 * $\sigma$: contains electron density on the internuclear axis
 * $\pi$: contains one nodal plane inclusive of internuclear axis
@@ -48,17 +55,30 @@ Created:  [[2022-07-12]]
 * Bonding: Has no nodal planes perpendicular to the bond axis and between the nuclei
 * Antibonding: Has at least one nodal plane perpendicular to the bond axis and between the nuclei
 * Nonbonding: Do not have AO contributions from both adjacent atoms
+* $\sigma_{g}$: bonding, $\sigma_{u}$: Antibonding, $\pi_{g},\delta_{u}$: Antibonding, $\pi_{u},\delta_{g}$: Bonding
 ![[2022-07-16 08-02-18.excalidraw]]
 
 ### MO electron configurations of diatomic molecules
 * Written based on possible MOs
 	* Predict bond orders and bond stability, along with trends in bond energy and length
-
+	* Every MO configuration has its own term symbol
+	* Some excited states are stable, others are dissociative
 * Molecular term symbols
 	* Similar to atomic term symbols, but for molecules
 	* Hund's rules apply to molecules too
 	* We generally determine only the lowest energy molecular term for a given configuration
+	* $L= 0 \to \Sigma; L= 1 \to \Pi; L= 2 \to \Delta; L= 3 \to \Phi$ 
 
+### Homonuclear Diatomics
+* Two identical atoms
+* MO energies generally increase as n increases
+* Little/No overlap between AOs with different n
+* Core orbitals have very little impact on bonding (Focus on valence bonding pretty much)
+
+### Heteronuclear Diatomics
+* Two different atoms
+* MO theory is similar to that for homonuclear diatomics
+* Valence orbitals of both atoms usually involved in bonding, core orbitals are not.
 
 ## Chapter 9 Equations
 ### Hamiltonian for $H^{+}_{2}$ 
@@ -81,9 +101,20 @@ $$J=\frac{e^{2}}{4\pi \epsilon_{o}R}-\frac{e^{2}}{4\pi \epsilon_{o}}\int\frac{\p
 ### Exchange Integral
 Use: Accounts for QM interactions to bond energies
 $$K=\frac{Se^{2}}{4 \pi \epsilon_{o}R}-\frac{e^{2}}{4 \pi \epsilon_{o}}\int\frac{\phi^{*}_{i}\phi_{i}}{r_{j}}dr$$
+
+### Bond Order
+Use: Bond order correlates to bond length and bond energy ($BO \propto \frac{1}{\text{ Bond length}}$, $BO \propto\text{ Bond Energy}$)
+$$BO=\frac{1}{2}[\text{\# bonding electrons}-\text{\# Antibonding electrons}]$$
+* Note that $BO >0$ should be stable
 ## Figures
 ### Comparison of Overlap for MOs
 ![[Pasted image 20220716085543.png|400]]
 ### Energies vs. Intermolecular separation
 ![[Pasted image 20220716085830.png|400]]
 
+### Contributions of Coulomb Integral J and Exchange Integral J to Stability of $H^{+}_{2}$ 
+
+![[Chapter 9 - Conti Integrals.png|400]]
+### The Molecular Orbitals $\psi_{+}$ (Bonding) and $\psi_{-}$ (Anti-Bonding) and their squares plotted
+
+![[Chapter 9 - Bonding and Antibonding Plots.png|400]]
