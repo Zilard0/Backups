@@ -1,0 +1,16 @@
+# O B S I D I A N
+.obsidian/cache
+.trash/
+.DS_Store
+pythonenv3.8
+.obsidian/todoist-token
+.venv
+zz/
+DevLog/node_modules/
+
+# D E N D R O N
+node_modules
+.dendron.*
+build
+seeds
+Norsk
