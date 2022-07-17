@@ -3,8 +3,8 @@
   
 ## Headline & Paragraph Ideas  
 
-1. Intro about eugenics
-2. Talk about the 3 dudes
+**1. Intro about eugenics** - Sources needed
+**2. Talk about the 3 dudes** - Sources needed
 3. Talk about the archive
 4. Birch control and immigration
 5. Birth control and Social issues
