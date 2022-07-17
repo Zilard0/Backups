@@ -6,7 +6,7 @@ aliases:
 # CHEM4502 - HW5
 Created: ### [[2022-07-14]]
 
-Questions: *9-9*, 9-10, *9-13*, *9-14*, *9-19*, 9-23, 9-30, 9-34, 9-36, 10-2, 10-6, 10-19, 10-21
+Questions: *9-9*, 9-10, *9-13*, *9-14*, *9-19*, *9-23*, 9-30, 9-34, 9-36, 10-2, 10-6, 10-19, 10-21
 
 ### Chapter 9
 
@@ -55,3 +55,20 @@ $$\text{Bond Order: }\begin{align*}
 \end{align*}$$
 $$\text{Bond Stability } \propto \text{ Bond Order}\propto \text{ Force Constant}:$$
 $$N_{2}>O_{2}\approx N_{2}>F_{2}\approx B_{2}$$
+**9.23: A common light source used in photoelectron spectroscopy is a helium discharge, which generates light at 58.4 nm. A photoelectron spectrometer measures the kinetic energy of the electrons ionized when the molecule absorbs this light. What is the largest electron binding energy that can be measured using this radiation source? Explain how a measurement of the kinetic energy of the ionized electrons can be used to determine the energy of the occupied molecular orbitals of a molecule. Hint: Recall the photoelectron effect discussed in Chapter 1.**
+
+$$E=hv=\frac{hc}{\lambda}=\frac{(6.626\times 10^{-34})(2.998\times10^8)}{58.4\times10^{-9}m}=3.40\times10^{-18}J$$
+$$\text{From Chapter 1: }eKE=hv- \phi $$
+$$\text{If eKE was measured, and E was just calculated, }\phi \text{ can be found.}$$
+$$\to \phi \text{ is the energy of the occupied MOs}$$
+
+**9.30: Deduce the ground-state term symbols of all the diatomic molecules given in Table 9.6.**
+
+
+| Molecule | L-Value | S-Value | Conclusions | Molecular Term Symbol | 
+| -------- | ------- | ------- | ----------- | --------------------- |
+
+s | s |
+
+
+
