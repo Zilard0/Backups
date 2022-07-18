@@ -5,8 +5,8 @@
 
 **1. Intro about eugenics** - Sources needed
 **2. Talk about the 3 dudes** - Sources needed
-3. Talk about the archive
-4. Birch control and immigration
+3. **Talk about the archive** - Sources
+4. **Birch control and immigration** - Sources
 5. Birth control and Social issues
 6. Birth control and laws.
 7. Birth control and forced sterilization
