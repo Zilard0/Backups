@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "center of mass",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -234,15 +234,15 @@
   },
   "active": "d4cda23f0085f5d8",
   "lastOpenFiles": [
-    "Summer 2022/CHEM4502/Lecture Problems/July 12 Problems.md",
-    "Summer 2022/CHEM4502/HW/CHEM4502 - HW5.md",
-    "Summer 2022/CHEM4502/Chapters/Chapter 1.md",
-    "Summer 2022/CHEM4502/Chapters/Chapter 9.md",
     "Summer 2022/CHEM4502/Chapters/Chapter 10.md",
-    "Attachs/CHEM4502 - HW5 2022-07-17 10-19-02.excalidraw.md",
-    "Attachs/CHEM4502 - HW5 2022-07-17 10-18-38.excalidraw.md",
-    "Inbox/Chapter9Question14.excalidraw.md",
+    "Summer 2022/CHEM4502/HW/CHEM4502 - HW5.md",
+    "Summer 2022/CHEM4502/Chapters/Chapter 9.md",
     "Summer 2022/CHEM4502/HW/CHEM4502 - HW4.md",
-    "Inbox/2022-07-12 13-55-13.excalidraw.md"
+    "Summer 2022/CHEM4502/Chapters/Chapter 5.md",
+    "Attachs/CHEM4502 - HW5 2022-07-17 10-19-02.excalidraw.md",
+    "Summer 2022/CHEM4502/Lecture Problems/July 12 Problems.md",
+    "Summer 2022/CHEM4502/Chapters/Chapter 1.md",
+    "Attachs/CHEM4502 - HW5 2022-07-17 10-18-38.excalidraw.md",
+    "Inbox/Chapter9Question14.excalidraw.md"
   ]
 }
