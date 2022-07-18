@@ -11,7 +11,7 @@
 6. Birth control and laws.
 7. Birth control and forced sterilization
 8. Birth control and movements
-9. Birth control and superiority of the Nordic race. (2paras) (Put this before Para 6)
+**9. Birth control and superiority of the Nordic race. (2paras) (Put this before Para 6)** - Source
 10. Conclusion (mention the babies! Don't ya dare forget!)
   
 ## Weird Additional Notes
