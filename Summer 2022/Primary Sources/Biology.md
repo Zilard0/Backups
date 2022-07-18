@@ -7,7 +7,7 @@
 **2. Talk about the 3 dudes** - Sources needed
 3. **Talk about the archive** - Sources
 4. **Birch control and immigration** - Sources
-5. Birth control and Social issues
+5. **Birth control and Social issues**
 6. Birth control and laws.
 7. Birth control and forced sterilization
 8. Birth control and movements
