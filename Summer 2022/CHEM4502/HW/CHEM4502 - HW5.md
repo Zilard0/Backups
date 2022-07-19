@@ -28,7 +28,7 @@ $$\text{Bond Order: }\begin{align*}
 \end{align*}$$
 $$\text{Bond Length: } F_{2}^{+}<F_{2}, \text{ Bond Energy: }F_{2}<F_{2}^{+}$$
 
-9.14: **Predict the relative stabilities of the species $N_2$, $N_{2}^{+}$, and $N_{2}^{-}$.**
+**9.14: Predict the relative stabilities of the species $N_2$, $N_{2}^{+}$, and $N_{2}^{-}$.**
 
 ![[Chapter9Question14.excalidraw]]
 
@@ -60,7 +60,7 @@ $$N_{2}>O_{2}\approx N_{2}>F_{2}\approx B_{2}$$
 $$E=hv=\frac{hc}{\lambda}=\frac{(6.626\times 10^{-34})(2.998\times10^8)}{58.4\times10^{-9}m}=3.40\times10^{-18}J$$
 $$\text{From Chapter 1: }eKE=hv- \phi $$
 $$\text{If eKE was measured, and E was just calculated, }\phi \text{ can be found.}$$
-$$\to \phi \text{ is the energy of the occupied MOs}$$
+$$\to \phi \text{ is the the electron binding energy}$$
 
 **9.30: Deduce the ground-state term symbols of all the diatomic molecules given in Table 9.6.**
 

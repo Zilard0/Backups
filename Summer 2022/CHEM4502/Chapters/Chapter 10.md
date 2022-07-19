@@ -18,7 +18,7 @@ ___
 * Molecular orbital theory accounts for shapes, but can be unwieldy; VB theory is another approach
 * Hybrid orbitals can be written in LCAO for more traditional consideration as wavefunctions
 * Hybrid orbitals can be formed from AOs with similar energy (2s and 2p for example)
-* VB Theory can not adequately explain many quantitative experimental observations, mot notably photoelectron spectra
+* VB Theory can not adequately explain many quantitative experimental observations, most notably photoelectron spectra
 * Number of HOs = Number of AOs
 * Figure:
 ![[Pasted image 20220714074106.png|400]]

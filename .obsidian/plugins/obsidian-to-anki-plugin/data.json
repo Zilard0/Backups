@@ -122,7 +122,9 @@
     }
   },
   "Added Media": [
-    "2022-07-07 07-43-53.excalidraw"
+    "2022-07-07 07-43-53.excalidraw",
+    "2022-07-16 08-02-18.excalidraw",
+    "Chapter 9 - Bonding and Antibonding Plots.png"
   ],
   "File Hashes": {
     "Templates/student_note_taking/Course Outline.md": "7e8890a47b3bbb7c570897a2172b4f37",
@@ -226,9 +228,9 @@
     "Templates/Anki/Anki Quoteobs.md": "79f1728700373a9adfc379c620ae3d70",
     "Templates/Anki/Anki Cloze.md": "0d0abcbd297bce1f9641befeaa3e90b8",
     "Templates/Anki/Anki 2 Programming Type Card.md": "d0e06426f271c4ae30a7c049fe46bf09",
-    "Templates/Anki/Anki 2 Cloze Card.md": "0caaa6e8d45db3bd96fac2d386ee6cd4",
+    "Templates/Anki/Anki 2 Cloze Card.md": "283aa68f4adb2d2d86bce5f60e71c407",
     "Templates/Anki/Anki 2 Basic Card.md": "3008e6519644300dc86b78bd31566a5f",
-    "Templates/Anki/Anki 1 Target Deck.md": "f4a3518fdabd16eb7dac65beb4ed7693",
+    "Templates/Anki/Anki 1 Target Deck.md": "7854d279fd2ede43c0bf010e1ebe7237",
     "Templates/Anki/Anki 0 Section.md": "732f57bd49220cf04938638c66f377a1",
     "Templates/Anki/Anki 0 Link.md": "d27682608dbfd223753a14694e109302",
     "Summer 2022/HSCI 1815/testing.md": "1b8abbacf931b702f15dc1388e22fa3d",
@@ -289,7 +291,7 @@
     "Summer 2022/CHEM4502/Chapters/Chapter 6.md": "914510eb650839c4e3de72620174ef19",
     "Summer 2022/CHEM4502/Chapters/Chapter 9.md": "ced1d6da7cf2c8bcd1e95d49322f0e3e",
     "Summer 2022/CHEM4502/Chapters/Chapter 13.md": "991c395b309c13a9ed26ce9478ce09c4",
-    "Summer 2022/CHEM4502/Chapters/Chapter 10.md": "6b468fa79c30076ea9e68241eaad7dca",
+    "Summer 2022/CHEM4502/Chapters/Chapter 10.md": "4fa52fe146ac1c324c4c960be62c3870",
     "Inbox/Chapter9Question14.excalidraw.md": "ee4ebfbaa37e7076b27fca8cd9cc42d1",
     "Inbox/2022-07-16 08-02-18.excalidraw.md": "a63e609d8076b7dddd8a1210609b20c1",
     "Inbox/2022-07-17 10-05-48.excalidraw.md": "ceddf79d5aeae772b498afc994d16e12",
@@ -311,7 +313,9 @@
     "Attachs/CHEM4502 - HW5 2022-07-17 10-19-02.excalidraw.md": "597c29997897b6e0fea4e45b3611fd7a",
     "Attachs/CHEM4502 - HW5 2022-07-17 10-18-38.excalidraw.md": "ceddf79d5aeae772b498afc994d16e12",
     "Attachs/CHEM4502 - HW5 2022-07-17 09-48-28.excalidraw.md": "ea801bb596a949aa9dae9aed36e128b2",
-    "Summer 2022/CHEM4502/Anki Cards/Chapter 8 Anki Cards - Done.md": "4de3b5676f3a5e55803ffdf3aef24381"
+    "Summer 2022/CHEM4502/Anki Cards/Chapter 8 Anki Cards - Done.md": "4de3b5676f3a5e55803ffdf3aef24381",
+    "Summer 2022/CHEM4502/Anki Cards/Chapter 10 Anki Cards - Done.md": "b9a5209c269a1ebc97bccb5410fa3281",
+    "Summer 2022/CHEM4502/Anki Cards/Chapter 9 Anki Cards - Done.md": "b02e3a4006637f44ed14abcc1ec0698f"
   },
   "fields_dict": {
     "AnKing": [
