@@ -121,7 +121,7 @@ $$\psi_{3}\to \psi_{2}\to \int\left[\frac{1}{\sqrt{3 }}2s^{\star}-\frac{1}{\sqrt
 $$=\left(\frac{1}{3}\int2s^{\star}2s-\frac{1}{\sqrt{18}}\int2s^{\star}2p_{z}-\frac{1}{\sqrt{6}}\int2s^{\star}2p_{x}\right)+\left(-\frac{1}{\sqrt{18}}\int2p_{z}^{\star}2s+\frac{1}{6}\int2p_{z}^{\star}2p_{z}+\frac{1}{\sqrt{12}}\int2p_{z}^{\star}2p_{x}\right)$$
 $$+\left(\frac{1}{\sqrt{6}}\int2p_{x}^{\star}2s-\frac{1}{\sqrt{12}}\int2p_{x}^{\star}2p_{z}+\frac{1}{2}\int2p_{x}^{\star}2p_{x}\right)=\frac{1}{3}+\frac{1}{6}+\frac{1}{2}=1$$
 
-**10.6: Given that one s p hybrid orbital is**
+**10.6: Given that one sp hybrid orbital is**
 $$\color{bred}\xi_{1}=\frac{1}{\sqrt{2 }} (2s+2p_{z})$$
 **construct a second one by requiring that it be normalized and orthogonal to $\xi_{1}$ .**
 

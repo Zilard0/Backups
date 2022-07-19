@@ -35,11 +35,11 @@ Created:  [[2022-07-12]]
 
 	* LCAO-MOs
 		* $\psi_{+}=c_{1}\phi_{1s,A}+c_{2}\phi_{1s,B}$
-		* $\psi_{+}=c_{1}\phi_{1s,A}-c_{2}\phi_{1s,B}$
+		* $\psi_{-}=c_{1}\phi_{1s,A}-c_{2}\phi_{1s,B}$
 	* Energy of Wavefunction:
 	 $$E=\frac{\int\psi^{*}\hat H\psi dr}{\int\psi^{*}\psi dr}$$
 * $E_{+}$ is more stable than separated fragments, leads to chemical bond
-* $E_{+}$ is more stable than separated fragments, leads to chemical bond
+* $E_{-}$ is less stable than separated fragments, does not lead to chemical bond
 * J is repulsive, K is attractive
 * Bonding can only be explained with K, and is therefore only adequately described by QM
 * $E_{+}<E_{-}$, so ground state has a bond at every R
@@ -84,7 +84,7 @@ Created:  [[2022-07-12]]
 ### Hamiltonian for $H^{+}_{2}$ 
 $$\hat H_{H^{+}_{2}}=\frac{-\hbar^{2}}{2m_{e}}\nabla^{2}-\frac{e^{2}}{4\pi \epsilon_{o}}\left( \frac{1}{r_{A}}+\frac{1}{r_{B}}-\frac{1}{R}\right)$$
 
-### Energy of a wavefunction
+### Energy of a wavefunction (Ask later)
 $$E=\frac{\int\psi^{*}\hat H\psi dr}{\int\psi^{*}\psi dr}$$
 ### Energies of 1s-based bonding & anti-bonding in $H^{+}_{2}$
 $$E_{\pm}=E_{1s}+\underbrace{\frac{J \pm K}{1\pm S}}_{\text{QM Bonding Energy}}$$

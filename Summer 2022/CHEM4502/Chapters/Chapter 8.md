@@ -24,7 +24,7 @@ Created:  [[2022-07-07]]
 * There must be operators, eigenfunctions for spin
 * We do not know their forms, only the associated eigenvalues
 * Spin has no classical analog; it is purely QM Effect
-* 
+
 
 ### Antisymmetry
 * Electrons in a system cannot be distinguished (Indistinguishability); we must consider all possible arrangements
