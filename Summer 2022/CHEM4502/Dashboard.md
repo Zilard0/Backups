@@ -21,7 +21,7 @@ ___
 	* [[Chapters 3 and 4 Examples]]
 * [[Chapter 5]]
 * [[Chapter 13]]
-* [[Chapter 6]]
+* [[Summer 2022/CHEM4502/Chapters/Chapter 6]]
 * [[Chapter 8]]
 ## Extras
 

@@ -55,8 +55,8 @@ $$\hat H_{H}=-\frac{\hbar^{2}}{2m_{e}}\nabla^{2}-\frac{e^{2}}{4\pi\epsilon_{o}r}
 * Spheres of no electron density
 * Radii at which P(r) = 0 are called nodes
 * Total number of nodes = $n-1$
-* Number of angular nodes (Planes with no electron density) = $l$
-* Number of radial nodes = $n-l-1$
+	* Number of angular nodes (Planes with no electron density) = $l$
+	* Number of radial nodes = $n-l-1$
 * Number of orbitals in subshell = $2l+1$
 * Linear combination of complex functions used to create real functions
 * One can plot $R(r) \text{ or } [rR(r)]^{2}$ 

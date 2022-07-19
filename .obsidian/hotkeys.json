@@ -22,5 +22,22 @@
       ],
       "key": "\\"
     }
+  ],
+  "templater-obsidian:Templates/Anki/Anki 2 Cloze Card.md": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "C"
+    }
+  ],
+  "templater-obsidian:Templates/Anki/Anki Cloze.md": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "C"
+    }
   ]
 }

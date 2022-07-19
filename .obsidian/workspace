@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Summer 2022/CHEM4502/Chapters/Chapter 6.md",
+            "file": "Summer 2022/CHEM4502/Anki Cards/Chapter 9 Anki Cards.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Summer 2022/CHEM4502/Chapters/Chapter 6.md",
+                "file": "Summer 2022/CHEM4502/Chapters/Chapter 9.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Summer 2022/CHEM4502/Chapters/Chapter 6.md",
+                "file": "Summer 2022/CHEM4502/Chapters/Chapter 9.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Summer 2022/CHEM4502/Chapters/Chapter 6.md"
+                "file": "Summer 2022/CHEM4502/Chapters/Chapter 9.md"
               }
             }
           },
@@ -201,17 +201,48 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "d4cda23f0085f5d8",
+  "floating": {
+    "id": "923e3d95e160e4e8",
+    "type": "floating",
+    "children": [
+      {
+        "id": "93f1ca9b6f5f9eca",
+        "type": "window",
+        "children": [
+          {
+            "id": "2613b6eeea424469",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Summer 2022/CHEM4502/Chapters/Chapter 9.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "direction": "vertical",
+        "x": 0,
+        "y": 0,
+        "width": 768,
+        "height": 824,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "2613b6eeea424469",
   "lastOpenFiles": [
-    "Summer 2022/CHEM4502/Chapters/Chapter 8.md",
-    "Summer 2022/CHEM4502/Chapters/Chapter 6.md",
-    "Summer 2022/CHEM4502/HW/CHEM4502 - HW5.md",
+    "Summer 2022/CHEM4502/Anki Cards/Chapter 9 Anki Cards.md",
     "Summer 2022/CHEM4502/Chapters/Chapter 9.md",
-    "Summer 2022/CHEM4502/Chapters/Chapter 1.md",
-    "Summer 2022/CHEM4502/Chapters/Chapter 10.md",
-    "Summer 2022/CHEM4502/Chapters/Chapter 5.md",
-    "Summer 2022/CHEM4502/Chapters/Chapter 2.md",
-    "Summer 2022/CHEM4502/Chapters/Chapter 13.md",
-    "Summer 2022/Primary Sources/Biology.md"
+    "Inbox/2022-07-16 08-02-18.excalidraw.md",
+    "Templates/Anki/Anki 2 Cloze Card.md",
+    "Templates/Anki/Anki 2 Basic Card.md",
+    "Templates/Anki/Anki 1 Target Deck.md",
+    "Templates/Inputs/Lectemp.md",
+    "Summer 2022/CHEM4502/Anki Cards/Chapter 8 Anki Cards - Done.md",
+    "Summer 2022/CHEM4502/Chapters/Chapter 8.md",
+    "Templates/Anki/Anki 0 Section.md"
   ]
 }

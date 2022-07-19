@@ -46,7 +46,7 @@ Statement: All electron wavefunctions must be antisymmetric with respect to exch
 * Antisymmetric wavefunctions are most easily expressed with determinants
 $$\Psi=\frac{1}{\sqrt{2}}\begin{vmatrix}(\psi_{1s}\alpha)_{1} & (\psi_{1s}\beta)_{1} \\ (\psi_{1s}\alpha)_{2} & (\psi_{1s}\beta)_{2}\end{vmatrix}$$
 
-* Pauli Exculsion Principle: No two electrons in an atom can have the same set of four quantum numbers
+* Pauli Exclusion Principle: No two electrons in an atom can have the same set of four quantum numbers
 
 ### Term symbols:
 * Shorthand method of describing the entire wavefunction of a multielectron atom

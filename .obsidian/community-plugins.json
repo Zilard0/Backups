@@ -24,12 +24,12 @@
   "table-editor-obsidian",
   "calendar",
   "mousewheel-image-zoom",
-  "obsidian-to-anki-plugin",
   "quick-latex",
   "tag-wrangler",
   "obsidian-jupyter",
   "obsidian-style-settings",
   "obsidian-git",
   "obsidian-paste-image-rename",
-  "obsidian-minimal-settings"
+  "obsidian-minimal-settings",
+  "obsidian-to-anki-plugin"
 ]
