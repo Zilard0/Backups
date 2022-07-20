@@ -6,7 +6,7 @@ aliases:
 # CHEM4502 - HW5
 Created: ### [[2022-07-14]]
 
-Questions: *9-9*, 9-10, *9-13*, *9-14*, *9-19*, *9-23*, *9-30*, *9-34*, *9-36*, *10-2*, *10-6*, 10-19, 10-21
+Questions: *9-9*, **9-10**, *9-13*, *9-14*, *9-19*, *9-23*, *9-30*, *9-34*, *9-36*, *10-2*, *10-6*, *10-19*, **10-21**
 
 ### Chapter 9
 
@@ -16,7 +16,7 @@ $$\psi_{2s}=\frac{1}{4\sqrt{2 \pi}} \left(\frac{Z}{a_{o}}\right)^{\frac{3}{2}}(2
 $$\psi_{2p_{x}}=\frac{1}{4\sqrt{2 \pi}} \left(\frac{Z}{a_{o}}\right)^{\frac{3}{2}}\sigma e^{\frac{-\sigma}{2}}\sin \theta\cos \phi$$
 $$\text{Overlap Integral: }S=\int_{\text{All space}}\psi_{2s}\psi_{2p_{x}} dr$$
 $$S=\int_{0}^{2\pi}\cos\phi\int \text{Rest of function}=0$$
-**SKIPPED 9.10**
+
 
 
 **9-13: Discuss the bond properties of $F_2$ and $F_{2}^{+}$ using molecular-orbital theory.**
@@ -133,3 +133,15 @@ $$\int\xi_{2}^{\star}\xi_{2}=\int (-c_{2}2s^{\star}+c_{2}2p_{z}^{\star})(-c_{2}2
 $$=\int c_{2}^{2}2s^{\star}2s+\int c_{2}^{2}2p^{\star}_{z}2p_{z}=c_{2}^{2}(1)+c_{2}^{2}(1)=1\to=2c_{2}^{2}=1$$
 $$c_{2}=\frac{1}{\sqrt{2}},c_{1}=-\frac{1}{\sqrt{2}}$$
 $$\xi_{2}=-\frac{1}{\sqrt{2 }}2s+\frac{1}{\sqrt{2}}2p_{Z}$$
+**10.19: Use Figure 10.25 to predict whether the following molecules are linear or bent:**
+
+![[CHEM4502 - HW5 - 1019.png|500]]
+![[CHEM4502 - HW5 - 10192.png|500]]
+
+$$\begin{align*}
+&a. \text{Bent}\\
+&b. \text{Bent}\\
+&c. \text{Linear}
+\end{align*}$$
+
+

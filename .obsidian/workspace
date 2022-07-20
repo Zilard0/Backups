@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Daily Notes/2022-07-19.md",
+            "file": "Summer 2022/CHEM4502/Chapters/Chapter 9.md",
             "mode": "source",
             "source": false
           }
@@ -56,6 +56,14 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "cc747609e26db256",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
           }
         ]
       }
@@ -77,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily Notes/2022-07-19.md",
+                "file": "Summer 2022/CHEM4502/Chapters/Chapter 9.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily Notes/2022-07-19.md",
+                "file": "Summer 2022/CHEM4502/Chapters/Chapter 9.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,49 +152,17 @@
             }
           },
           {
-            "id": "3454b6cd9b75d930",
-            "type": "leaf",
-            "state": {
-              "type": "graph-analysis",
-              "state": {}
-            }
-          },
-          {
-            "id": "f51aeacba6cd7fba",
-            "type": "leaf",
-            "state": {
-              "type": "graph-analysis",
-              "state": {}
-            }
-          },
-          {
             "id": "cdf5d0bd03960f4a",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily Notes/2022-07-19.md"
+                "file": "Summer 2022/CHEM4502/Chapters/Chapter 9.md"
               }
             }
           },
           {
-            "id": "24c19ccd0bf97444",
-            "type": "leaf",
-            "state": {
-              "type": "graph-analysis",
-              "state": {}
-            }
-          },
-          {
-            "id": "faa366960926cf67",
-            "type": "leaf",
-            "state": {
-              "type": "graph-analysis",
-              "state": {}
-            }
-          },
-          {
-            "id": "47b78ab8ee0b3e53",
+            "id": "d6bdb51cf11b1cde",
             "type": "leaf",
             "state": {
               "type": "graph-analysis",
@@ -201,17 +177,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "d4cda23f0085f5d8",
+  "active": "d6bdb51cf11b1cde",
   "lastOpenFiles": [
-    "Daily Notes/2022-07-18.md",
+    "Summer 2022/CHEM4502/Chapters/Chapter 10.md",
     "Daily Notes/2022-07-19.md",
+    "Daily Notes/kjhkhkhkhkhkh.md",
+    "Daily Notes/2022-07-18.md",
+    "Summer 2022/CHEM4502/Anki Cards/Chapter 10 Anki Cards - Done.md",
+    "Summer 2022/CHEM4502/HW/CHEM4502 - HW5.md",
     "Daily Notes/2022-07-15.md",
     "Daily Notes/2022-07-16.md",
     "Daily Notes/2022-07-17.md",
-    "Daily Notes/2021-07-19.md",
-    "Summer 2022/CHEM4502/HW/CHEM4502 - HW5.md",
-    "Summer 2022/CHEM4502/Chapters/Chapter 9.md",
-    "Summer 2022/CHEM4502/HW/CHEM4502 - HW4.md",
-    "Summer 2022/CHEM4502/Chapters/Chapter 6.md"
+    "Daily Notes/2021-07-19.md"
   ]
 }

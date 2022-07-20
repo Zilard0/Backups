@@ -8,7 +8,7 @@ Created: ### [[2022-07-14]]
 ___
 ## Concepts
 * Hybrid Orbitals: a linear combintation of AOs on a single atom; provide an intuitive description of chemical behavior
-* 
+
 ___
 
 ### VB Theory
