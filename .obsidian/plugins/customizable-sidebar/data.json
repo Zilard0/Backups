@@ -3,12 +3,16 @@
   "hiddenCommands": [
     "Templater",
     "Advanced Tables Toolbar",
-    "Obsidian_to_Anki - Scan Vault",
     "Open this month",
     "Open command palette",
-    "Open today's daily note",
-    "Open graph view",
+    "Macros: test_macro",
     "Open quick switcher",
-    "Macros: test_macro"
+    "Open today's daily note",
+    "Text to Speech",
+    "Create new unique note",
+    "Open format converter",
+    "Insert template",
+    "Obsidian_to_Anki - Scan Vault",
+    "Open graph view"
   ]
 }
