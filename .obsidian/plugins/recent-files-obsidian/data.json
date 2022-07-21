@@ -1,8 +1,44 @@
 {
   "recentFiles": [
     {
-      "basename": "test",
-      "path": "test.md"
+      "basename": "Fall 2022",
+      "path": "Dashboards/Fall 2022.md"
+    },
+    {
+      "basename": "Summer 2022",
+      "path": "Dashboards/Summer 2022.md"
+    },
+    {
+      "basename": "Dashboard",
+      "path": "Dashboards/Dashboard.md"
+    },
+    {
+      "basename": "2022-07-21",
+      "path": "Daily Notes/2022-07-21.md"
+    },
+    {
+      "basename": "Daily",
+      "path": "Templates/Temporal/Daily.md"
+    },
+    {
+      "basename": "Daily Template",
+      "path": "Templates/Daily Template.md"
+    },
+    {
+      "basename": "eqn",
+      "path": "Templates/eqn.md"
+    },
+    {
+      "basename": "Course Template",
+      "path": "Templates/Course Template.md"
+    },
+    {
+      "basename": "Meta",
+      "path": "Templates/Meta.md"
+    },
+    {
+      "basename": "Chapter 9",
+      "path": "Summer 2022/CHEM4502/Chapters/Chapter 9.md"
     },
     {
       "basename": "Chapter 5",
@@ -11,10 +47,6 @@
     {
       "basename": "2022-07-20",
       "path": "Daily Notes/2022-07-20.md"
-    },
-    {
-      "basename": "2022-07-21",
-      "path": "Daily Notes/2022-07-21.md"
     },
     {
       "basename": "2022-07-17",
@@ -51,10 +83,6 @@
     {
       "basename": "Chapter 9 Anki Cards - Done",
       "path": "Summer 2022/CHEM4502/Anki Cards/Chapter 9 Anki Cards - Done.md"
-    },
-    {
-      "basename": "Chapter 9",
-      "path": "Summer 2022/CHEM4502/Chapters/Chapter 9.md"
     }
   ],
   "omittedPaths": [],

@@ -10,6 +10,9 @@ tags: #Journal
 
 ![[<% tp.date.now("YYYY-MM-DD", "P-1Y") %>]]
 
+## Daily Quote
+
+<%tp.web.daily_quote()%>
 
 ---
 
