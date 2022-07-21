@@ -7,8 +7,12 @@
         "id": "864d01e24229c900",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Daily Notes/2022-07-20.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -89,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Daily Notes/2022-07-20.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Daily Notes/2022-07-20.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +164,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Daily Notes/2022-07-20.md"
+              }
             }
           },
           {
@@ -179,15 +187,15 @@
   },
   "active": "864d01e24229c900",
   "lastOpenFiles": [
+    "Daily Notes/2022-07-21.md",
+    "Daily Notes/2022-07-17.md",
+    "Daily Notes/2022-07-13.md",
+    "Daily Notes/2022-07-15.md",
+    "Daily Notes/2022-07-18.md",
+    "Daily Notes/2022-07-20.md",
+    "Daily Notes/kjhkhkhkhkhkh.md",
     "Summer 2022/CHEM4502/Chapters/Chapter 10.md",
     "Summer 2022/CHEM4502/Chapters/Chapter 5.md",
-    "Summer 2022/CHEM4502/Anki Cards/Chapter 8 Anki Cards - Done.md",
-    "Daily Notes/2022-07-19.md",
-    "Summer 2022/CHEM4502/Chapters/Chapter 8.md",
-    "Summer 2022/CHEM4502/Anki Cards/Chapter 9 Anki Cards - Done.md",
-    "Summer 2022/CHEM4502/Chapters/Chapter 9.md",
-    "Daily Notes/2021-07-19.md",
-    "Daily Notes/2022-07-11.md",
-    "Daily Notes/2022-07-15.md"
+    "Summer 2022/CHEM4502/Anki Cards/Chapter 8 Anki Cards - Done.md"
   ]
 }
