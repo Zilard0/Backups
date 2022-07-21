@@ -42,9 +42,26 @@ cssclass: dashboard
 
 
 - Lecture Notes
-- Readings
+	- [[L1 - Readings and Notes]]
+	- [[L2 - Readings nad Notes]]
+	- [[L3 - Readings and Notes]]
+	- [[L4 - Readings and Notes]]
+	- [[L5 - Readings and Notes]]
+	- [[L6 - Readings and Notes]]
+	- [[L7 - Readings and Notes]]
+	- [[L9 - Readings and Notes]]
+	- [[L10 - Readings and Notes]]
+	- [[L11 - Readings and Notes]]
+	- [[L12 - Readings and Notes]]
+
+
 - Primary Source Analysis
+	- [[Biology]]
 - Quizzes
+	- Add photocopy later
+- Readings
 - Contact & Office Hours
+	- Leah Malamut
+	- Shepherd Labs, 1-3pm
 
 
