@@ -1303,6 +1303,9 @@ var require_linkify = __commonJS({
             nodes = [];
             level = currentToken.level;
             lastPos = 0;
+            if (links.length > 0 && links[0].index === 0 && i > 0 && tokens[i - 1].type === "text_special") {
+              links = links.slice(1);
+            }
             for (ln = 0; ln < links.length; ln++) {
               url = links[ln].url;
               fullUrl = state.md.normalizeLink(url);
@@ -1360,12 +1363,11 @@ var require_replacements = __commonJS({
   "node_modules/markdown-it/lib/rules_core/replacements.js"(exports, module2) {
     "use strict";
     var RARE_RE = /\+-|\.\.|\?\?\?\?|!!!!|,,|--/;
-    var SCOPED_ABBR_TEST_RE = /\((c|tm|r|p)\)/i;
-    var SCOPED_ABBR_RE = /\((c|tm|r|p)\)/ig;
+    var SCOPED_ABBR_TEST_RE = /\((c|tm|r)\)/i;
+    var SCOPED_ABBR_RE = /\((c|tm|r)\)/ig;
     var SCOPED_ABBR = {
       c: "\xA9",
       r: "\xAE",
-      p: "\xA7",
       tm: "\u2122"
     };
     function replaceFn(match, name) {
@@ -1434,7 +1436,7 @@ var require_smartquotes = __commonJS({
     var QUOTE_RE = /['"]/g;
     var APOSTROPHE = "\u2019";
     function replaceAt(str, index, ch) {
-      return str.substr(0, index) + ch + str.substr(index + 1);
+      return str.slice(0, index) + ch + str.slice(index + 1);
     }
     function process_inlines(tokens, state) {
       var i, token, text2, t, pos, max, thisLevel, item, lastChar, nextChar, isLastPunctChar, isNextPunctChar, isLastWhiteSpace, isNextWhiteSpace, canOpen, canClose, j, isSingle, stack, openQuote, closeQuote;
@@ -1579,6 +1581,40 @@ var require_smartquotes = __commonJS({
   }
 });
 
+// node_modules/markdown-it/lib/rules_core/text_join.js
+var require_text_join = __commonJS({
+  "node_modules/markdown-it/lib/rules_core/text_join.js"(exports, module2) {
+    "use strict";
+    module2.exports = function text_join(state) {
+      var j, l, tokens, curr, max, last, blockTokens = state.tokens;
+      for (j = 0, l = blockTokens.length; j < l; j++) {
+        if (blockTokens[j].type !== "inline")
+          continue;
+        tokens = blockTokens[j].children;
+        max = tokens.length;
+        for (curr = 0; curr < max; curr++) {
+          if (tokens[curr].type === "text_special") {
+            tokens[curr].type = "text";
+          }
+        }
+        for (curr = last = 0; curr < max; curr++) {
+          if (tokens[curr].type === "text" && curr + 1 < max && tokens[curr + 1].type === "text") {
+            tokens[curr + 1].content = tokens[curr].content + tokens[curr + 1].content;
+          } else {
+            if (curr !== last) {
+              tokens[last] = tokens[curr];
+            }
+            last++;
+          }
+        }
+        if (curr !== last) {
+          tokens.length = last;
+        }
+      }
+    };
+  }
+});
+
 // node_modules/markdown-it/lib/token.js
 var require_token = __commonJS({
   "node_modules/markdown-it/lib/token.js"(exports, module2) {
@@ -1673,7 +1709,8 @@ var require_parser_core = __commonJS({
       ["inline", require_inline()],
       ["linkify", require_linkify()],
       ["replacements", require_replacements()],
-      ["smartquotes", require_smartquotes()]
+      ["smartquotes", require_smartquotes()],
+      ["text_join", require_text_join()]
     ];
     function Core() {
       this.ruler = new Ruler();
@@ -1700,7 +1737,7 @@ var require_table = __commonJS({
     var isSpace = require_utils().isSpace;
     function getLine(state, line) {
       var pos = state.bMarks[line] + state.tShift[line], max = state.eMarks[line];
-      return state.src.substr(pos, max - pos);
+      return state.src.slice(pos, max);
     }
     function escapedSplit(str) {
       var result = [], pos = 0, max = str.length, ch, isEscaped = false, lastPos = 0, current = "";
@@ -2258,7 +2295,7 @@ var require_list = __commonJS({
         return false;
       }
       if (silent && state.parentType === "paragraph") {
-        if (state.tShift[startLine] >= state.blkIndent) {
+        if (state.sCount[startLine] >= state.blkIndent) {
           isTerminatingParagraph = true;
         }
       }
@@ -3159,13 +3196,64 @@ var require_text = __commonJS({
   }
 });
 
+// node_modules/markdown-it/lib/rules_inline/linkify.js
+var require_linkify2 = __commonJS({
+  "node_modules/markdown-it/lib/rules_inline/linkify.js"(exports, module2) {
+    "use strict";
+    var SCHEME_RE = /(?:^|[^a-z0-9.+-])([a-z][a-z0-9.+-]*)$/i;
+    module2.exports = function linkify(state, silent) {
+      var pos, max, match, proto, link, url, fullUrl, token;
+      if (!state.md.options.linkify)
+        return false;
+      if (state.linkLevel > 0)
+        return false;
+      pos = state.pos;
+      max = state.posMax;
+      if (pos + 3 > max)
+        return false;
+      if (state.src.charCodeAt(pos) !== 58)
+        return false;
+      if (state.src.charCodeAt(pos + 1) !== 47)
+        return false;
+      if (state.src.charCodeAt(pos + 2) !== 47)
+        return false;
+      match = state.pending.match(SCHEME_RE);
+      if (!match)
+        return false;
+      proto = match[1];
+      link = state.md.linkify.matchAtStart(state.src.slice(pos - proto.length));
+      if (!link)
+        return false;
+      url = link.url;
+      url = url.replace(/\*+$/, "");
+      fullUrl = state.md.normalizeLink(url);
+      if (!state.md.validateLink(fullUrl))
+        return false;
+      if (!silent) {
+        state.pending = state.pending.slice(0, -proto.length);
+        token = state.push("link_open", "a", 1);
+        token.attrs = [["href", fullUrl]];
+        token.markup = "linkify";
+        token.info = "auto";
+        token = state.push("text", "", 0);
+        token.content = state.md.normalizeLinkText(url);
+        token = state.push("link_close", "a", -1);
+        token.markup = "linkify";
+        token.info = "auto";
+      }
+      state.pos += url.length - proto.length;
+      return true;
+    };
+  }
+});
+
 // node_modules/markdown-it/lib/rules_inline/newline.js
 var require_newline = __commonJS({
   "node_modules/markdown-it/lib/rules_inline/newline.js"(exports, module2) {
     "use strict";
     var isSpace = require_utils().isSpace;
     module2.exports = function newline(state, silent) {
-      var pmax, max, pos = state.pos;
+      var pmax, max, ws, pos = state.pos;
       if (state.src.charCodeAt(pos) !== 10) {
         return false;
       }
@@ -3174,7 +3262,10 @@ var require_newline = __commonJS({
       if (!silent) {
         if (pmax >= 0 && state.pending.charCodeAt(pmax) === 32) {
           if (pmax >= 1 && state.pending.charCodeAt(pmax - 1) === 32) {
-            state.pending = state.pending.replace(/ +$/, "");
+            ws = pmax - 1;
+            while (ws >= 1 && state.pending.charCodeAt(ws - 1) === 32)
+              ws--;
+            state.pending = state.pending.slice(0, ws);
             state.push("hardbreak", "br", 0);
           } else {
             state.pending = state.pending.slice(0, -1);
@@ -3208,40 +3299,47 @@ var require_escape = __commonJS({
       ESCAPED[ch.charCodeAt(0)] = 1;
     });
     module2.exports = function escape2(state, silent) {
-      var ch, pos = state.pos, max = state.posMax;
-      if (state.src.charCodeAt(pos) !== 92) {
+      var ch1, ch2, origStr, escapedStr, token, pos = state.pos, max = state.posMax;
+      if (state.src.charCodeAt(pos) !== 92)
         return false;
-      }
       pos++;
-      if (pos < max) {
-        ch = state.src.charCodeAt(pos);
-        if (ch < 256 && ESCAPED[ch] !== 0) {
-          if (!silent) {
-            state.pending += state.src[pos];
-          }
-          state.pos += 2;
-          return true;
+      if (pos >= max)
+        return false;
+      ch1 = state.src.charCodeAt(pos);
+      if (ch1 === 10) {
+        if (!silent) {
+          state.push("hardbreak", "br", 0);
         }
-        if (ch === 10) {
-          if (!silent) {
-            state.push("hardbreak", "br", 0);
-          }
+        pos++;
+        while (pos < max) {
+          ch1 = state.src.charCodeAt(pos);
+          if (!isSpace(ch1))
+            break;
           pos++;
-          while (pos < max) {
-            ch = state.src.charCodeAt(pos);
-            if (!isSpace(ch)) {
-              break;
-            }
-            pos++;
-          }
-          state.pos = pos;
-          return true;
+        }
+        state.pos = pos;
+        return true;
+      }
+      escapedStr = state.src[pos];
+      if (ch1 >= 55296 && ch1 <= 56319 && pos + 1 < max) {
+        ch2 = state.src.charCodeAt(pos + 1);
+        if (ch2 >= 56320 && ch2 <= 57343) {
+          escapedStr += state.src[pos + 1];
+          pos++;
         }
       }
+      origStr = "\\" + escapedStr;
       if (!silent) {
-        state.pending += "\\";
+        token = state.push("text_special", "", 0);
+        if (ch1 < 256 && ESCAPED[ch1] !== 0) {
+          token.content = escapedStr;
+        } else {
+          token.content = origStr;
+        }
+        token.markup = origStr;
+        token.info = "escape";
       }
-      state.pos++;
+      state.pos = pos + 1;
       return true;
     };
   }
@@ -3556,7 +3654,9 @@ var require_link = __commonJS({
         if (title) {
           attrs.push(["title", title]);
         }
+        state.linkLevel++;
         state.md.inline.tokenize(state);
+        state.linkLevel--;
         token = state.push("link_close", "a", -1);
       }
       state.pos = pos;
@@ -3747,6 +3847,12 @@ var require_html_inline = __commonJS({
   "node_modules/markdown-it/lib/rules_inline/html_inline.js"(exports, module2) {
     "use strict";
     var HTML_TAG_RE = require_html_re().HTML_TAG_RE;
+    function isLinkOpen(str) {
+      return /^<a[>\s]/i.test(str);
+    }
+    function isLinkClose(str) {
+      return /^<\/a\s*>/i.test(str);
+    }
     function isLetter(ch) {
       var lc = ch | 32;
       return lc >= 97 && lc <= 122;
@@ -3771,6 +3877,10 @@ var require_html_inline = __commonJS({
       if (!silent) {
         token = state.push("html_inline", "", 0);
         token.content = state.src.slice(pos, pos + match[0].length);
+        if (isLinkOpen(token.content))
+          state.linkLevel++;
+        if (isLinkClose(token.content))
+          state.linkLevel--;
       }
       state.pos += match[0].length;
       return true;
@@ -3789,40 +3899,41 @@ var require_entity = __commonJS({
     var DIGITAL_RE = /^&#((?:x[a-f0-9]{1,6}|[0-9]{1,7}));/i;
     var NAMED_RE = /^&([a-z][a-z0-9]{1,31});/i;
     module2.exports = function entity(state, silent) {
-      var ch, code, match, pos = state.pos, max = state.posMax;
-      if (state.src.charCodeAt(pos) !== 38) {
+      var ch, code, match, token, pos = state.pos, max = state.posMax;
+      if (state.src.charCodeAt(pos) !== 38)
         return false;
-      }
-      if (pos + 1 < max) {
-        ch = state.src.charCodeAt(pos + 1);
-        if (ch === 35) {
-          match = state.src.slice(pos).match(DIGITAL_RE);
-          if (match) {
+      if (pos + 1 >= max)
+        return false;
+      ch = state.src.charCodeAt(pos + 1);
+      if (ch === 35) {
+        match = state.src.slice(pos).match(DIGITAL_RE);
+        if (match) {
+          if (!silent) {
+            code = match[1][0].toLowerCase() === "x" ? parseInt(match[1].slice(1), 16) : parseInt(match[1], 10);
+            token = state.push("text_special", "", 0);
+            token.content = isValidEntityCode(code) ? fromCodePoint(code) : fromCodePoint(65533);
+            token.markup = match[0];
+            token.info = "entity";
+          }
+          state.pos += match[0].length;
+          return true;
+        }
+      } else {
+        match = state.src.slice(pos).match(NAMED_RE);
+        if (match) {
+          if (has(entities, match[1])) {
             if (!silent) {
-              code = match[1][0].toLowerCase() === "x" ? parseInt(match[1].slice(1), 16) : parseInt(match[1], 10);
-              state.pending += isValidEntityCode(code) ? fromCodePoint(code) : fromCodePoint(65533);
+              token = state.push("text_special", "", 0);
+              token.content = entities[match[1]];
+              token.markup = match[0];
+              token.info = "entity";
             }
             state.pos += match[0].length;
             return true;
           }
-        } else {
-          match = state.src.slice(pos).match(NAMED_RE);
-          if (match) {
-            if (has(entities, match[1])) {
-              if (!silent) {
-                state.pending += entities[match[1]];
-              }
-              state.pos += match[0].length;
-              return true;
-            }
-          }
         }
       }
-      if (!silent) {
-        state.pending += "&";
-      }
-      state.pos++;
-      return true;
+      return false;
     };
   }
 });
@@ -3897,11 +4008,11 @@ var require_balance_pairs = __commonJS({
   }
 });
 
-// node_modules/markdown-it/lib/rules_inline/text_collapse.js
-var require_text_collapse = __commonJS({
-  "node_modules/markdown-it/lib/rules_inline/text_collapse.js"(exports, module2) {
+// node_modules/markdown-it/lib/rules_inline/fragments_join.js
+var require_fragments_join = __commonJS({
+  "node_modules/markdown-it/lib/rules_inline/fragments_join.js"(exports, module2) {
     "use strict";
-    module2.exports = function text_collapse(state) {
+    module2.exports = function fragments_join(state) {
       var curr, last, level = 0, tokens = state.tokens, max = state.tokens.length;
       for (curr = last = 0; curr < max; curr++) {
         if (tokens[curr].nesting < 0)
@@ -3949,6 +4060,7 @@ var require_state_inline = __commonJS({
       this._prev_delimiters = [];
       this.backticks = {};
       this.backticksScanned = false;
+      this.linkLevel = 0;
     }
     StateInline.prototype.pushPending = function() {
       var token = new Token("text", "", 0);
@@ -4031,6 +4143,7 @@ var require_parser_inline = __commonJS({
     var Ruler = require_ruler();
     var _rules = [
       ["text", require_text()],
+      ["linkify", require_linkify2()],
       ["newline", require_newline()],
       ["escape", require_escape()],
       ["backticks", require_backticks()],
@@ -4046,7 +4159,7 @@ var require_parser_inline = __commonJS({
       ["balance_pairs", require_balance_pairs()],
       ["strikethrough", require_strikethrough().postProcess],
       ["emphasis", require_emphasis().postProcess],
-      ["text_collapse", require_text_collapse()]
+      ["fragments_join", require_fragments_join()]
     ];
     function ParserInline() {
       var i;
@@ -4126,6 +4239,7 @@ var require_re = __commonJS({
     "use strict";
     module2.exports = function(opts) {
       var re = {};
+      opts = opts || {};
       re.src_Any = require_regex2().source;
       re.src_Cc = require_regex3().source;
       re.src_Z = require_regex5().source;
@@ -4137,8 +4251,8 @@ var require_re = __commonJS({
       re.src_ip4 = "(?:(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\.){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)";
       re.src_auth = "(?:(?:(?!" + re.src_ZCc + "|[@/\\[\\]()]).)+@)?";
       re.src_port = "(?::(?:6(?:[0-4]\\d{3}|5(?:[0-4]\\d{2}|5(?:[0-2]\\d|3[0-5])))|[1-5]?\\d{1,4}))?";
-      re.src_host_terminator = "(?=$|" + text_separators + "|" + re.src_ZPCc + ")(?!-|_|:\\d|\\.-|\\.(?!$|" + re.src_ZPCc + "))";
-      re.src_path = "(?:[/?#](?:(?!" + re.src_ZCc + "|" + text_separators + `|[()[\\]{}.,"'?!\\-;]).|\\[(?:(?!` + re.src_ZCc + "|\\]).)*\\]|\\((?:(?!" + re.src_ZCc + "|[)]).)*\\)|\\{(?:(?!" + re.src_ZCc + '|[}]).)*\\}|\\"(?:(?!' + re.src_ZCc + `|["]).)+\\"|\\'(?:(?!` + re.src_ZCc + "|[']).)+\\'|\\'(?=" + re.src_pseudo_letter + "|[-]).|\\.{2,}[a-zA-Z0-9%/&]|\\.(?!" + re.src_ZCc + "|[.]).|" + (opts && opts["---"] ? "\\-(?!--(?:[^-]|$))(?:-*)|" : "\\-+|") + ",(?!" + re.src_ZCc + ").|;(?!" + re.src_ZCc + ").|\\!+(?!" + re.src_ZCc + "|[!]).|\\?(?!" + re.src_ZCc + "|[?]).)+|\\/)?";
+      re.src_host_terminator = "(?=$|" + text_separators + "|" + re.src_ZPCc + ")(?!" + (opts["---"] ? "-(?!--)|" : "-|") + "_|:\\d|\\.-|\\.(?!$|" + re.src_ZPCc + "))";
+      re.src_path = "(?:[/?#](?:(?!" + re.src_ZCc + "|" + text_separators + `|[()[\\]{}.,"'?!\\-;]).|\\[(?:(?!` + re.src_ZCc + "|\\]).)*\\]|\\((?:(?!" + re.src_ZCc + "|[)]).)*\\)|\\{(?:(?!" + re.src_ZCc + '|[}]).)*\\}|\\"(?:(?!' + re.src_ZCc + `|["]).)+\\"|\\'(?:(?!` + re.src_ZCc + "|[']).)+\\'|\\'(?=" + re.src_pseudo_letter + "|[-])|\\.{2,}[a-zA-Z0-9%/&]|\\.(?!" + re.src_ZCc + "|[.]|$)|" + (opts["---"] ? "\\-(?!--(?:[^-]|$))(?:-*)|" : "\\-+|") + ",(?!" + re.src_ZCc + "|$)|;(?!" + re.src_ZCc + "|$)|\\!+(?!" + re.src_ZCc + "|[!]|$)|\\?(?!" + re.src_ZCc + "|[?]|$))+|\\/)?";
       re.src_email_name = '[\\-;:&=\\+\\$,\\.a-zA-Z0-9_][\\-;:&=\\+\\$,\\"\\.a-zA-Z0-9_]*';
       re.src_xn = "xn--[a-z0-9\\-]{1,59}";
       re.src_domain_root = "(?:" + re.src_xn + "|" + re.src_pseudo_letter + "{1,63})";
@@ -4334,6 +4448,7 @@ var require_linkify_it = __commonJS({
       }).map(escapeRE).join("|");
       self.re.schema_test = RegExp("(^|(?!_)(?:[><\uFF5C]|" + re.src_ZPCc + "))(" + slist + ")", "i");
       self.re.schema_search = RegExp("(^|(?!_)(?:[><\uFF5C]|" + re.src_ZPCc + "))(" + slist + ")", "ig");
+      self.re.schema_at_start = RegExp("^" + self.re.schema_search.source, "i");
       self.re.pretest = RegExp("(" + self.re.schema_test.source + ")|(" + self.re.host_fuzzy_test.source + ")|@", "i");
       resetScanCache(self);
     }
@@ -4459,6 +4574,22 @@ var require_linkify_it = __commonJS({
       }
       return null;
     };
+    LinkifyIt.prototype.matchAtStart = function matchAtStart(text2) {
+      this.__text_cache__ = text2;
+      this.__index__ = -1;
+      if (!text2.length)
+        return null;
+      var m = this.re.schema_at_start.exec(text2);
+      if (!m)
+        return null;
+      var len = this.testSchemaAt(text2, m[2], m[0].length);
+      if (!len)
+        return null;
+      this.__schema__ = m[2];
+      this.__index__ = m.index + m[1].length;
+      this.__last_index__ = m.index + m[0].length + len;
+      return createMatch(this, 0);
+    };
     LinkifyIt.prototype.tlds = function tlds(list, keepOld) {
       list = Array.isArray(list) ? list : [list];
       if (!keepOld) {
@@ -4533,7 +4664,8 @@ var require_zero = __commonJS({
           rules: [
             "normalize",
             "block",
-            "inline"
+            "inline",
+            "text_join"
           ]
         },
         block: {
@@ -4547,7 +4679,7 @@ var require_zero = __commonJS({
           ],
           rules2: [
             "balance_pairs",
-            "text_collapse"
+            "fragments_join"
           ]
         }
       }
@@ -4576,7 +4708,8 @@ var require_commonmark = __commonJS({
           rules: [
             "normalize",
             "block",
-            "inline"
+            "inline",
+            "text_join"
           ]
         },
         block: {
@@ -4609,7 +4742,7 @@ var require_commonmark = __commonJS({
           rules2: [
             "balance_pairs",
             "emphasis",
-            "text_collapse"
+            "fragments_join"
           ]
         }
       }
@@ -5653,7 +5786,6 @@ var TodoSettingTab = class extends import_obsidian.PluginSettingTab {
     });
     new import_obsidian.Setting(this.containerEl).setName("Advanced");
     new import_obsidian.Setting(this.containerEl).setName("Include Files").setDesc("Include all files that match this glob pattern. Examples on plugin page/github readme. Leave empty to check all files.").setTooltip("**/*").addText((text2) => text2.setValue(this.plugin.getSettingValue("includeFiles")).onChange((value) => __async(this, null, function* () {
-      console.log(value);
       yield this.plugin.updateSettings({ includeFiles: value });
     })));
     new import_obsidian.Setting(this.containerEl).setName("Auto Refresh List?").addToggle((toggle) => {
@@ -6261,10 +6393,11 @@ var highlightPlugin = regexPlugin(/\=\=([^\=]+)\=\=/, (match, utils2) => {
 
 // src/plugins/link.ts
 var linkPlugin = (linkMap) => regexPlugin(/\[\[([^\]]+)\]\]/, (match, utils2) => {
-  var _a;
   const content = match[1];
   const [link, label] = content.split("|");
-  return `<a data-href="${link}" data-type="link" data-filepath="${(_a = linkMap.get(link)) == null ? void 0 : _a.filePath}" class="internal-link">${utils2.escape(label || link)}</a>`;
+  const linkItem = linkMap.get(link);
+  const displayText = label ? label : linkItem ? linkItem.linkName : link;
+  return `<a data-href="${link}" data-type="link" data-filepath="${linkItem.filePath}" class="internal-link">${utils2.escape(displayText)}</a>`;
 });
 
 // src/plugins/tag.ts
@@ -6279,8 +6412,6 @@ var parseTodos = (files, todoTags, cache, vault, includeFiles, showChecked, show
   const filesWithCache = yield Promise.all(files.filter((file) => {
     if (file.stat.mtime < lastRerender)
       return false;
-    console.log(file.path);
-    console.log(includePattern);
     if (!includePattern.some((p) => (0, import_minimatch.default)(file.path, p)))
       return false;
     if (todoTags.length === 1 && todoTags[0] === "*")

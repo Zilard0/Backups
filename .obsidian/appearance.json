@@ -5,5 +5,8 @@
   "translucency": false,
   "textFontFamily": "Lora",
   "interfaceFontFamily": "Lora",
-  "enabledCssSnippets": []
+  "enabledCssSnippets": [
+    "dashboard",
+    "dashboard-ReadLineLength"
+  ]
 }

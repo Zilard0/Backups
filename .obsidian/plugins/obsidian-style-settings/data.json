@@ -25,5 +25,6 @@
   "latex-pdf-css@@numbered-math": false,
   "latex-pdf-css@@image-alt-text": false,
   "blue-topaz-theme@@print-strong-color@@light": "#FF0000",
-  "blue-topaz-theme@@print-strong-color@@dark": "#FF0000"
+  "blue-topaz-theme@@print-strong-color@@dark": "#FF0000",
+  "blue-topaz-theme@@list-style-change-options": "rainbow-lines-reading"
 }

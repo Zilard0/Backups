@@ -1,57 +1,48 @@
 ---
-tags: #Journal
+cssclass: dashboard
 ---
 
-## On This Day...
+# Personal
+- Journal
+	- Daily
+	- Weekly
+	- Monthly
+	- Yearly
+- Travel
+	- US to Saudi
+	- Saudi to US
+- Food
+	- Groceries
+	- Meal Prep Recipes
+	- Drinks
+- Health
+	- Weight
+	- Daily food intake
 
-[[2021-07-14]]
-[[2022-07-13]] <== <button class="date_button_today">Today</button> ==> [[2022-07-14]]
+# School
+- Semesters
+	- Summer 2022
+	- Fall 2022
 
+# Work
+- Aramco Reviews
+	- July 5
+	- July 11
+	- July 18
+- Important Emails
+	- Add claire emails here later
+	- Add insurance here
+	- ATP Desk Files
+- Important Dates
+	- Weekly Reviews
 
-#### << [[2022-07-14]] | [[2022-07-16]] >>
+# Knowledge 
 
-# Friday, July 15, 2022
-
-### This day last year
-
-![[2021-07-15]]
----
-
-## Notes Created Today
-
----
-
-## Create
-
-*What did I do or make today?*
-
-  
-
-## Consume
-
-*What did I read/listen to/watch today?*
-
-  
-
-## Contemplate
-
-*What did I think about today?*
-
-  
-
-## Contact
-
-*Who did I talk to today?*
-
-  
-
-## To Explore Later
-
----
-
-## Evening Reflection
-
-  
-------
-
-
+- Physics
+	- Introductory Physics
+- Math
+- Chemistry
+- Coding
+- English
+- Books
+- Tweets & Threads

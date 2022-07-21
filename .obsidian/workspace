@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Daily Notes/2022-07-20.md",
-            "mode": "source",
+            "file": "test.md",
+            "mode": "preview",
             "source": false
           }
         }
@@ -77,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 370
+    "width": 220
   },
   "right": {
     "id": "dacb50987ea48dbb",
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily Notes/2022-07-20.md",
+                "file": "test.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily Notes/2022-07-20.md",
+                "file": "test.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily Notes/2022-07-20.md"
+                "file": "test.md"
               }
             }
           },
@@ -187,15 +187,15 @@
   },
   "active": "864d01e24229c900",
   "lastOpenFiles": [
+    "Summer 2022/CHEM4502/Chapters/Chapter 5.md",
+    "test.md",
+    "Daily Notes/2022-07-20.md",
     "Daily Notes/2022-07-21.md",
     "Daily Notes/2022-07-17.md",
     "Daily Notes/2022-07-13.md",
     "Daily Notes/2022-07-15.md",
     "Daily Notes/2022-07-18.md",
-    "Daily Notes/2022-07-20.md",
     "Daily Notes/kjhkhkhkhkhkh.md",
-    "Summer 2022/CHEM4502/Chapters/Chapter 10.md",
-    "Summer 2022/CHEM4502/Chapters/Chapter 5.md",
-    "Summer 2022/CHEM4502/Anki Cards/Chapter 8 Anki Cards - Done.md"
+    "Summer 2022/CHEM4502/Chapters/Chapter 10.md"
   ]
 }

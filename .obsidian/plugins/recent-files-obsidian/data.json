@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "test",
+      "path": "test.md"
+    },
+    {
+      "basename": "Chapter 5",
+      "path": "Summer 2022/CHEM4502/Chapters/Chapter 5.md"
+    },
+    {
       "basename": "2022-07-20",
       "path": "Daily Notes/2022-07-20.md"
     },
@@ -27,10 +35,6 @@
     {
       "basename": "Chapter 10",
       "path": "Summer 2022/CHEM4502/Chapters/Chapter 10.md"
-    },
-    {
-      "basename": "Chapter 5",
-      "path": "Summer 2022/CHEM4502/Chapters/Chapter 5.md"
     },
     {
       "basename": "Chapter 8 Anki Cards - Done",
