@@ -9,7 +9,7 @@
   },
   "readableLineLength": false,
   "promptDelete": false,
-  "fileSortOrder": "alphabetical",
+  "fileSortOrder": "byModifiedTimeReverse",
   "spellcheck": true,
   "newFileLocation": "current",
   "alwaysUpdateLinks": true,

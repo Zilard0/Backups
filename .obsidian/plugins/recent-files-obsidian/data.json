@@ -1,16 +1,40 @@
 {
   "recentFiles": [
     {
-      "basename": "Fall 2022",
-      "path": "Dashboards/Fall 2022.md"
+      "basename": "Dashboard",
+      "path": "Dashboards/Dashboard.md"
     },
     {
       "basename": "Summer 2022",
       "path": "Dashboards/Summer 2022.md"
     },
     {
-      "basename": "Dashboard",
-      "path": "Dashboards/Dashboard.md"
+      "basename": "Fall 2022",
+      "path": "Dashboards/Fall 2022.md"
+    },
+    {
+      "basename": "CHEM4502 - HW1",
+      "path": "Summer 2022/CHEM4502/HW/CHEM4502 - HW1.md"
+    },
+    {
+      "basename": "CHEM4502 - HW5",
+      "path": "Summer 2022/CHEM4502/HW/CHEM4502 - HW5.md"
+    },
+    {
+      "basename": "June 9, 2022",
+      "path": "Summer 2022/CHEM4502/Lecture Problems/June 9, 2022.md"
+    },
+    {
+      "basename": "Chapter 10",
+      "path": "Summer 2022/CHEM4502/Chapters/Chapter 10.md"
+    },
+    {
+      "basename": "Chapters 3 and 4",
+      "path": "Summer 2022/CHEM4502/Chapters/Chapters 3 and 4.md"
+    },
+    {
+      "basename": "Math Chapter B",
+      "path": "Summer 2022/CHEM4502/Chapters/Math Chapter B.md"
     },
     {
       "basename": "2022-07-21",
@@ -63,10 +87,6 @@
     {
       "basename": "2022-07-18",
       "path": "Daily Notes/2022-07-18.md"
-    },
-    {
-      "basename": "Chapter 10",
-      "path": "Summer 2022/CHEM4502/Chapters/Chapter 10.md"
     },
     {
       "basename": "Chapter 8 Anki Cards - Done",
