@@ -17,8 +17,8 @@ Extra1:
 
 
 Extra2:
-Lesson:
-Course:
+Lesson: Chapter 1
+Course: CHEM4502
 <!--ID: 1658457447792-->
 END
 
@@ -38,8 +38,8 @@ Extra2:
 	* Note that hte energy of a wave can be expressed as the inverse of the wavelength, which gives them the units of $m^{-1}$ or $cm^{-1}$ , called wavenumber.
 	* $E < 0 \textrm{ for emission}$ 
 	* $E > 0 \textrm{ for absorption}$ 
-Lesson: 
-Course: 
+Lesson: Chapter 1 
+Course: CHEM4502 
 <!--ID: 1658457447798-->
 END
 
@@ -58,8 +58,8 @@ $$E=hv$$
 
 Extra1: Use: Relates the energy of a light particle, or a photon to its frequency}}
 Extra2: 
-Lesson: 
-Course: 
+Lesson: Chapter 1 
+Course: CHEM4502 
 <!--ID: 1658457447804-->
 END
 
@@ -81,8 +81,8 @@ Extra2:
 * $n=1$ is the ground state (Lowest possible E)
 * $n > 1$ is an excited state
 
-Lesson: 
-Course: 
+Lesson: Chapter 1 
+Course: CHEM4502 
 <!--ID: 1658457447809-->
 END
 
@@ -102,8 +102,8 @@ Extra1:
 Extra2: 
 * $c$ = speed of light
 
-Lesson: 
-Course: 
+Lesson: Chapter 1 
+Course: CHEM4502 
 <!--ID: 1658457447815-->
 END
 
@@ -122,8 +122,8 @@ $$\lambda =\frac{h}{mu}$$
 Extra1: 
 * **Note that $\lambda$ here refers to the wavelength of a particle**
 Extra2: 
-Lesson: 
-Course: 
+Lesson: Chapter 1 
+Course: CHEM4502 
 <!--ID: 1658457447820-->
 END
 
@@ -140,8 +140,8 @@ Extra1:
 * These uncertainties has a minimum allowed value.
 * Note that this has the smallest value compared to other similar equations
 Extra2: 
-Lesson: 
-Course: 
+Lesson: Chapter 1 
+Course: CHEM4502 
 <!--ID: 1658457447825-->
 END
 

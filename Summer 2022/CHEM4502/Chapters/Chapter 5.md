@@ -51,14 +51,7 @@ $$\begin{align*}
 &\text{Where Angular momentum is }I\omega 
 \end{align*}$$
 
-* Quantum Rigid Rotor: Two objects connected at a fixed distance and rotating about a point in space
-* System satisfies a wave function which is best expressed in spherical coordinates, that are called the spherical harmonics(Which require transforming the Hamiltonian)
-* Angular momentum is an important Rigid Rotor Quantity
-* Solutions depend on the moment of inertia ($I$) 
-* There is no zero-point energy for the Rigid Rotor
-* Quantized energies 
-* Energy levels with degeneracies that are dependent on the quantum level
-* Vibrational amplitudes are small (Typically $\leq 5$% of $R_{e}$ ), which makes the RR approximation reasonably valid
+* 
 
 ### Chapter 5 Equations
 

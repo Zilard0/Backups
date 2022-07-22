@@ -124,7 +124,10 @@
       "CurlyCloze - Highlights to Clozes": false,
       "ID Comments": true,
       "Add Obsidian Tags": false
-    }
+    },
+    "IGNORED_FILE_GLOBS": [
+      "Templates/Anki"
+    ]
   },
   "Added Media": [
     "2022-07-07 07-43-53.excalidraw",
@@ -132,7 +135,15 @@
     "Chapter 9 - Bonding and Antibonding Plots.png",
     "2022-06-17 05-53-57.excalidraw",
     "Pasted image 20220617190134.png",
-    "2022-06-17 19-20-18.excalidraw"
+    "2022-06-17 19-20-18.excalidraw",
+    "2022-06-28 01-58-02.excalidraw",
+    "Pasted image 20220629231722.png",
+    "Pasted image 20220630020558.png",
+    "Pasted image 20220629230155.png",
+    "Pasted image 20220629231628.png",
+    "Pasted image 20220628034920.png",
+    "Pasted image 20220628035727.png",
+    "Pasted image 20220628060104.png"
   ],
   "File Hashes": {
     "Templates/student_note_taking/Course Outline.md": "7e8890a47b3bbb7c570897a2172b4f37",
@@ -236,8 +247,8 @@
     "Templates/Anki/Anki Quoteobs.md": "79f1728700373a9adfc379c620ae3d70",
     "Templates/Anki/Anki Cloze.md": "0d0abcbd297bce1f9641befeaa3e90b8",
     "Templates/Anki/Anki 2 Programming Type Card.md": "d0e06426f271c4ae30a7c049fe46bf09",
-    "Templates/Anki/Anki 2 Cloze Card.md": "395b946925a2023a77994e41a57c8413",
-    "Templates/Anki/Anki 2 Basic Card.md": "223e9c31b0fe2fb296a6fb0085c4a626",
+    "Templates/Anki/Anki 2 Cloze Card.md": "56615fee64abb48000889e0239b88f56",
+    "Templates/Anki/Anki 2 Basic Card.md": "152e802a433c5444c4af47ebc6ae44c0",
     "Templates/Anki/Anki 1 Target Deck.md": "7854d279fd2ede43c0bf010e1ebe7237",
     "Templates/Anki/Anki 0 Section.md": "732f57bd49220cf04938638c66f377a1",
     "Templates/Anki/Anki 0 Link.md": "d27682608dbfd223753a14694e109302",
@@ -295,7 +306,7 @@
     "Summer 2022/CHEM4502/HW/CHEM4502 - HW2.md": "057e75dca93064db89b5b283ce6a2d7c",
     "Summer 2022/CHEM4502/Chapters/Chatpers 3 and 4.md": "4a1b36e009a165120f48252e216a3777",
     "Summer 2022/CHEM4502/Chapters/Chapter 8.md": "177701d3df2610fb7e22e226dc46b716",
-    "Summer 2022/CHEM4502/Chapters/Chapter 5.md": "83cbec684eed954bb2fd0c76ad2365d3",
+    "Summer 2022/CHEM4502/Chapters/Chapter 5.md": "b5558151e52d25c4301324c7d743f723",
     "Summer 2022/CHEM4502/Chapters/Chapter 6.md": "914510eb650839c4e3de72620174ef19",
     "Summer 2022/CHEM4502/Chapters/Chapter 9.md": "ced1d6da7cf2c8bcd1e95d49322f0e3e",
     "Summer 2022/CHEM4502/Chapters/Chapter 13.md": "991c395b309c13a9ed26ce9478ce09c4",
@@ -331,15 +342,22 @@
     "Daily Notes/2022-07-18.md": "c281088b1d9363fa48ac1cf99cfca39e",
     "Summer 2022/Primary Sources/Biology-Tablet.md": "066f523abb85e6be84cae288889754f2",
     "Summer 2022/HSCI 1815/Lecture Notes/L12 - Readings and Notes.md": "3d745d13feeac91be2a6bb42aab7912a",
-    "Summer 2022/CHEM4502/Chapters/Chapters 3 and 4.md": "4410ee072fb3e453ecd3976481c1d0c5",
-    "Summer 2022/CHEM4502/Anki Cards/Chapter 2 Anki Cards - Done.md": "cadfa0ae1def9086596b96058da709a9",
-    "Summer 2022/CHEM4502/Anki Cards/Chapters 3 and 4 Anki Cards - Done.md": "cc9067c2ee470dc248b14b194209a34e",
-    "Summer 2022/CHEM4502/Anki Cards/Chapter 1 Anki Cards - Done.md": "6c9c82ed1aa877d8bc544676b28dfff3",
+    "Summer 2022/CHEM4502/Chapters/Chapters 3 and 4.md": "84681067d31251b46a9dd2ac35a73c7f",
+    "Summer 2022/CHEM4502/Anki Cards/Chapter 2 Anki Cards - Done.md": "cea68e4299799d17591950e3b1a21b48",
+    "Summer 2022/CHEM4502/Anki Cards/Chapters 3 and 4 Anki Cards - Done.md": "487a5a175b3991fc3b4778176b747a6f",
+    "Summer 2022/CHEM4502/Anki Cards/Chapter 1 Anki Cards - Done.md": "c73a12e5f2ed444f3612bcb3100b8f60",
     "Dashboards/Daily.md": "cc3e7c696c33c731bb8b65aa0425d62e",
     "Dashboards/Fall 2022.md": "d41d8cd98f00b204e9800998ecf8427e",
     "Dashboards/Summer 2022.md": "5982c344dd587898f64acb6a343f38e6",
     "Dashboards/Dashboard.md": "0b72a6086bf20f47c0bf5aaeca17bc94",
-    "Summer 2022/CHEM4502/Anki Cards/Untitled.md": "c2f8a178e23025340c8fe8a2951a9193"
+    "Summer 2022/CHEM4502/Anki Cards/Untitled.md": "c2f8a178e23025340c8fe8a2951a9193",
+    "Dashboards/Chapters 3 and 4 Anki Cards - Done.md": "f03e1ee99eb79bf8245e17b5f442aa84",
+    "Dashboards/Math Chapter B Anki Cards - Done.md": "53d1716938ac923d67e3899b9b3d19ee",
+    "Dashboards/Chapter 13 Anki Cards - Done.md": "7343e6c87fd0898e0df1188f592d15eb",
+    "Dashboards/Chapter 5 Anki Cards - Done.md": "2f720cfc4caef8b75b5f1a6ec1ac6b69",
+    "Summer 2022/CHEM4502/Anki Cards/Chapter 5 Anki Cards - Done.md": "2f720cfc4caef8b75b5f1a6ec1ac6b69",
+    "Summer 2022/CHEM4502/Anki Cards/Chapter 13 Anki Cards - Done.md": "7343e6c87fd0898e0df1188f592d15eb",
+    "Summer 2022/CHEM4502/Anki Cards/Math Chapter B Anki Cards - Done.md": "53d1716938ac923d67e3899b9b3d19ee"
   },
   "fields_dict": {
     "AnKing": [

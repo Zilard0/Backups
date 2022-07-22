@@ -53,7 +53,7 @@ Condition:
 Statement: Wavefunctions may evolve over time. However, in this course we are interested only in stationary states (do not change over time).
 
 ### Particle in a 1-D Box
-Eqn: 
+Figure: 
 
 ![[2022-06-17 05-53-57.excalidraw]]
 

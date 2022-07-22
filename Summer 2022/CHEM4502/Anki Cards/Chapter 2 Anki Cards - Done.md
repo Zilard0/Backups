@@ -3,6 +3,10 @@ Basic-lesson
 Front: What are waves?
 Back: They are oscillatory functions
 <!--ID: 1658457447717-->
+Extra1:
+Extra2:
+Lesson: Chapter 2
+Course: CHEM4502
 END
 
 START
@@ -16,8 +20,8 @@ Back:
 * Boundaries: Restrict the infinite possible solution of a wave to the edges of interest.
 Extra1:
 Extra2:
-Lesson:
-Course:
+Lesson: Chapter 2
+Course: CHEM4502
 <!--ID: 1658457447725-->
 END
 
@@ -40,8 +44,8 @@ $$c=v\lambda$$
 Extra1:
 - **Note that it is not interchangeable with de Broglie Eqn!!**
 Extra2:
-Lesson:
-Course:
+Lesson: Chapter 2
+Course: CHEM4502
 <!--ID: 1658457447732-->
 END
 
@@ -56,8 +60,8 @@ $$v=\frac{\omega}{2\pi}$$
 
 Extra1: 
 Extra2: $\omega$ = Angular Frequency
-Lesson:
-Course:
+Lesson: Chapter 2
+Course: CHEM4502
 <!--ID: 1658457447738-->
 END
 
@@ -79,8 +83,8 @@ Extra1:
 Extra2: 
 * $u$ = speed of wave
 
-Lesson:
-Course:
+Lesson: Chapter 2
+Course: CHEM4502
 <!--ID: 1658457447743-->
 END
 
@@ -97,8 +101,8 @@ $$X(x)=c_{1}e^{i\beta x}+ c_{2}e^{i\beta x} = c_{3}cos{\beta x}+c_{4}sin{\beta x
 
 Extra1:
 Extra2:
-Lesson:
-Course:
+Lesson: Chapter 2
+Course: CHEM4502
 <!--ID: 1658457447748-->
 END
 
@@ -117,8 +121,8 @@ Extra1:
 Extra2:
 * $n$ = integer
 * $l$ = length of space
-Lesson:
-Course:
+Lesson: Chapter 2
+Course: CHEM4502
 <!--ID: 1658457447753-->
 END
 
@@ -135,8 +139,8 @@ $$f_{n}(x,t) =X_n(x)T_{n(t)}\qquad \qquad f(x,t) =\sum_{n=1}^{\infty} f_{n}(x,t)
 
 Extra1: Add notes later
 Extra2:
-Lesson:
-Course:
+Lesson: Chapter 2
+Course: CHEM4502
 <!--ID: 1658457447759-->
 END
 
@@ -147,8 +151,8 @@ Front: testing
 Back: s 
 Extra1:
 Extra2:
-Lesson:
-Course:
+Lesson: Chapter 2
+Course: CHEM4502
 <!--ID: 1658457753598-->
 END
 

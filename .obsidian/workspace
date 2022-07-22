@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "c7b98a02d12d52c4",
+        "id": "a47591bfb98158ca",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Summer 2022/CHEM4502/Anki Cards/Chapter 2 Anki Cards - Done.md",
+            "file": "Summer 2022/CHEM4502/Chapters/Math Chapter B.md",
             "mode": "source",
             "source": false
           }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Summer 2022/CHEM4502/Anki Cards/Chapter 2 Anki Cards - Done.md",
+                "file": "Summer 2022/CHEM4502/Chapters/Math Chapter B.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Summer 2022/CHEM4502/Anki Cards/Chapter 2 Anki Cards - Done.md",
+                "file": "Summer 2022/CHEM4502/Chapters/Math Chapter B.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Summer 2022/CHEM4502/Anki Cards/Chapter 2 Anki Cards - Done.md"
+                "file": "Summer 2022/CHEM4502/Chapters/Math Chapter B.md"
               }
             }
           },
@@ -185,17 +185,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "c7b98a02d12d52c4",
+  "active": "f5d7d4248be5132e",
   "lastOpenFiles": [
-    "Summer 2022/CHEM4502/Anki Cards/Untitled.md",
-    "Summer 2022/CHEM4502/Anki Cards/Chapters 3 and 4 Anki Cards - Done.md",
-    "Summer 2022/CHEM4502/Anki Cards/Chapter 2 Anki Cards - Done.md",
-    "Templates/Anki/Anki 2 Basic Card.md",
-    "Summer 2022/CHEM4502/Anki Cards/Chapter 1 Anki Cards - Done.md",
-    "Summer 2022/CHEM4502/Chapters/Chapters 3 and 4.md",
-    "Templates/Anki/Anki 2 Cloze Card.md",
+    "Summer 2022/CHEM4502/Anki Cards/Math Chapter B Anki Cards - Done.md",
+    "Summer 2022/CHEM4502/Chapters/Math Chapter B.md",
     "Dashboards/Summer 2022.md",
-    "Dashboards/Dashboard.md",
-    "Dashboards/Daily.md"
+    "Summer 2022/CHEM4502/Chapters/Chapter 13.md",
+    "Summer 2022/CHEM4502/Anki Cards/Chapter 13 Anki Cards - Done.md",
+    "Summer 2022/CHEM4502/Chapters/Chapter 5.md",
+    "Summer 2022/CHEM4502/Anki Cards/Chapter 5 Anki Cards - Done.md",
+    "Templates/Anki/Anki 2 Basic Card.md",
+    "Templates/Anki/Anki 2 Cloze Card.md",
+    "Summer 2022/CHEM4502/Anki Cards/Chapters 3 and 4 Anki Cards - Done.md"
   ]
 }
