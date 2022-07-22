@@ -40,5 +40,13 @@
       "key": "C"
     }
   ],
-  "daily-activity:links-to-files-created-today": []
+  "daily-activity:links-to-files-created-today": [],
+  "templater-obsidian:Templates/Anki/Anki 2 Basic Card.md": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "C"
+    }
+  ]
 }

@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Dashboards/Summer 2022.md",
-            "mode": "preview",
+            "file": "Summer 2022/CHEM4502/Anki Cards/Chapter 2 Anki Cards - Done.md",
+            "mode": "source",
             "source": false
           }
         }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dashboards/Summer 2022.md",
+                "file": "Summer 2022/CHEM4502/Anki Cards/Chapter 2 Anki Cards - Done.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Dashboards/Summer 2022.md",
+                "file": "Summer 2022/CHEM4502/Anki Cards/Chapter 2 Anki Cards - Done.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dashboards/Summer 2022.md"
+                "file": "Summer 2022/CHEM4502/Anki Cards/Chapter 2 Anki Cards - Done.md"
               }
             }
           },
@@ -187,15 +187,15 @@
   },
   "active": "c7b98a02d12d52c4",
   "lastOpenFiles": [
+    "Summer 2022/CHEM4502/Anki Cards/Untitled.md",
+    "Summer 2022/CHEM4502/Anki Cards/Chapters 3 and 4 Anki Cards - Done.md",
+    "Summer 2022/CHEM4502/Anki Cards/Chapter 2 Anki Cards - Done.md",
+    "Templates/Anki/Anki 2 Basic Card.md",
+    "Summer 2022/CHEM4502/Anki Cards/Chapter 1 Anki Cards - Done.md",
+    "Summer 2022/CHEM4502/Chapters/Chapters 3 and 4.md",
+    "Templates/Anki/Anki 2 Cloze Card.md",
+    "Dashboards/Summer 2022.md",
     "Dashboards/Dashboard.md",
-    "Dashboards/Daily.md",
-    "Daily Notes/2022-07-10.md",
-    "Daily Notes/2022-07-13.md",
-    "Daily Notes/2022-07-18.md",
-    "Daily Notes/2022-07-21.md",
-    "Daily Notes/2022-07-20.md",
-    "Daily Notes/2022-07-19.md",
-    "Daily Notes/2021-07-19.md",
-    "Daily Notes/2022-07-11.md"
+    "Dashboards/Daily.md"
   ]
 }

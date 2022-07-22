@@ -14,7 +14,10 @@
       "Image Occlusion Enhanced": "",
       "Image Occlusion Enhanced-782f2": "",
       "Image Occlusion Enhanced-bc3bb": "",
-      "Quoteobs": ""
+      "Quoteobs": "",
+      "Basic-lesson": "",
+      "Cloze-Lesson": "",
+      "Cloze-With extra": ""
     },
     "FILE_LINK_FIELDS": {
       "AnKing": "Text",
@@ -65,7 +68,8 @@
       "Summer 2022/Primary Sources": "",
       "Weekly Review/Aramco": "",
       "Summer 2022/CHEM4502/Summaries": "",
-      "Summer 2022/CHEM4502/Anki Cards": ""
+      "Summer 2022/CHEM4502/Anki Cards": "",
+      "Dashboards": ""
     },
     "FOLDER_TAGS": {
       "Coding": "",
@@ -97,7 +101,8 @@
       "Summer 2022/Primary Sources": "",
       "Weekly Review/Aramco": "",
       "Summer 2022/CHEM4502/Summaries": "",
-      "Summer 2022/CHEM4502/Anki Cards": ""
+      "Summer 2022/CHEM4502/Anki Cards": "",
+      "Dashboards": ""
     },
     "Syntax": {
       "Begin Note": "START",
@@ -124,7 +129,10 @@
   "Added Media": [
     "2022-07-07 07-43-53.excalidraw",
     "2022-07-16 08-02-18.excalidraw",
-    "Chapter 9 - Bonding and Antibonding Plots.png"
+    "Chapter 9 - Bonding and Antibonding Plots.png",
+    "2022-06-17 05-53-57.excalidraw",
+    "Pasted image 20220617190134.png",
+    "2022-06-17 19-20-18.excalidraw"
   ],
   "File Hashes": {
     "Templates/student_note_taking/Course Outline.md": "7e8890a47b3bbb7c570897a2172b4f37",
@@ -137,9 +145,9 @@
     "Templates/Temporal/Daily.md": "ffc2915e60d05d9a56c4d75ca456c466",
     "Templates/Temporal/Annual Note.md": "4853d1041252347a03645718d2041f1e",
     "Templates/MOCtemp.md": "7b071ea6d75f937d3fcf3eeeabe9de03",
-    "Templates/Meta.md": "70bc002803f3eb6ad255130a2f6504b7",
-    "Templates/eqn.md": "841599e69ac542b3559074cf3d61bdf6",
-    "Templates/Daily Template.md": "27e6771db4e0a1a5a7add95418f0e229",
+    "Templates/Meta.md": "dbab66027f92056631d06b061f59bfaa",
+    "Templates/eqn.md": "eacc6abfd6a4c9952594710ad6d88fe4",
+    "Templates/Daily Template.md": "4fdb58b8eb0ee18f37affcc849de3769",
     "Templates/Inputs/Youtube.md": "9a78abfaa1696dd3cfe3e7cd21cbf065",
     "Templates/Inputs/Untitled.md": "d41d8cd98f00b204e9800998ecf8427e",
     "Templates/Inputs/Tweet.md": "519ac8773ff7fe5f9e2bd054fa44200f",
@@ -224,12 +232,12 @@
     "Templates/Formatting/3.md": "26a2454ae089a0c52f7b02e4c04addaa",
     "Templates/Formatting/2.md": "dccc7794cb4c20dc5167e820d3ef9b96",
     "Templates/Formatting/1.md": "1c59d20c34b0a3c9b1b21b85ccda9dce",
-    "Templates/Course Template.md": "c7772c7ba8c5b1aa591857f8259a1d0f",
+    "Templates/Course Template.md": "efe58860330f329a1848f3eb3dae7b0f",
     "Templates/Anki/Anki Quoteobs.md": "79f1728700373a9adfc379c620ae3d70",
     "Templates/Anki/Anki Cloze.md": "0d0abcbd297bce1f9641befeaa3e90b8",
     "Templates/Anki/Anki 2 Programming Type Card.md": "d0e06426f271c4ae30a7c049fe46bf09",
-    "Templates/Anki/Anki 2 Cloze Card.md": "283aa68f4adb2d2d86bce5f60e71c407",
-    "Templates/Anki/Anki 2 Basic Card.md": "3008e6519644300dc86b78bd31566a5f",
+    "Templates/Anki/Anki 2 Cloze Card.md": "395b946925a2023a77994e41a57c8413",
+    "Templates/Anki/Anki 2 Basic Card.md": "223e9c31b0fe2fb296a6fb0085c4a626",
     "Templates/Anki/Anki 1 Target Deck.md": "7854d279fd2ede43c0bf010e1ebe7237",
     "Templates/Anki/Anki 0 Section.md": "732f57bd49220cf04938638c66f377a1",
     "Templates/Anki/Anki 0 Link.md": "d27682608dbfd223753a14694e109302",
@@ -282,7 +290,7 @@
     "Summer 2022/CHEM4502/Lecture Problems/July 12 Problems.md": "7c2610a1574172a200d686a1e566fc42",
     "Summer 2022/CHEM4502/Lecture Problems/July 12 Problems-LAPTOP-RB4P5KLQ.md": "a0a3d06879f76e6dfb75797a4fb0647c",
     "Summer 2022/CHEM4502/CHEM4502 Anki Cards.md": "7a17775c3c8b185b08f0edc38ac7c393",
-    "Summer 2022/CHEM4502/HW/CHEM4502 - HW5.md": "b95e402dcbbd60f0ab432d8fa72c96d6",
+    "Summer 2022/CHEM4502/HW/CHEM4502 - HW5.md": "84660d4c7d79fca90ad9b91a6c3d31b3",
     "Summer 2022/CHEM4502/HW/CHEM4502 - HW4.md": "009262e8c8b885fdffdb27fd53e73054",
     "Summer 2022/CHEM4502/HW/CHEM4502 - HW2.md": "057e75dca93064db89b5b283ce6a2d7c",
     "Summer 2022/CHEM4502/Chapters/Chatpers 3 and 4.md": "4a1b36e009a165120f48252e216a3777",
@@ -291,7 +299,7 @@
     "Summer 2022/CHEM4502/Chapters/Chapter 6.md": "914510eb650839c4e3de72620174ef19",
     "Summer 2022/CHEM4502/Chapters/Chapter 9.md": "ced1d6da7cf2c8bcd1e95d49322f0e3e",
     "Summer 2022/CHEM4502/Chapters/Chapter 13.md": "991c395b309c13a9ed26ce9478ce09c4",
-    "Summer 2022/CHEM4502/Chapters/Chapter 10.md": "4fa52fe146ac1c324c4c960be62c3870",
+    "Summer 2022/CHEM4502/Chapters/Chapter 10.md": "37dbfc77988ea6bd31370ebcdce2a580",
     "Inbox/Chapter9Question14.excalidraw.md": "ee4ebfbaa37e7076b27fca8cd9cc42d1",
     "Inbox/2022-07-16 08-02-18.excalidraw.md": "a63e609d8076b7dddd8a1210609b20c1",
     "Inbox/2022-07-17 10-05-48.excalidraw.md": "ceddf79d5aeae772b498afc994d16e12",
@@ -307,15 +315,31 @@
     "Daily Notes/2022-07-14.md": "0a108924b40c391e3c1c11f9b6700224",
     "Daily Notes/2022-07-16.md": "ef0ea0dffdb94d32729f30e0212baa7d",
     "Daily Notes/2022-07-12.md": "60a824101c065c93d143a4b8aabb3c06",
-    "Daily Notes/2022-07-13.md": "a4e27251538e2226d9dda430afdcefa6",
-    "Daily Notes/2022-07-11.md": "ec67ada189cf0ff533542a9280482703",
-    "Daily Notes/2022-07-10.md": "23149f7ec5f090477ad9c192819e3037",
+    "Daily Notes/2022-07-13.md": "8429aed100e8a61e4a223b2372f34db9",
+    "Daily Notes/2022-07-11.md": "bd4bb7208157140ae5706a24c82d0bc2",
+    "Daily Notes/2022-07-10.md": "33ede38f18b4a5817d7f4603fa1f6932",
     "Attachs/CHEM4502 - HW5 2022-07-17 10-19-02.excalidraw.md": "597c29997897b6e0fea4e45b3611fd7a",
     "Attachs/CHEM4502 - HW5 2022-07-17 10-18-38.excalidraw.md": "ceddf79d5aeae772b498afc994d16e12",
     "Attachs/CHEM4502 - HW5 2022-07-17 09-48-28.excalidraw.md": "ea801bb596a949aa9dae9aed36e128b2",
     "Summer 2022/CHEM4502/Anki Cards/Chapter 8 Anki Cards - Done.md": "4de3b5676f3a5e55803ffdf3aef24381",
     "Summer 2022/CHEM4502/Anki Cards/Chapter 10 Anki Cards - Done.md": "b9a5209c269a1ebc97bccb5410fa3281",
-    "Summer 2022/CHEM4502/Anki Cards/Chapter 9 Anki Cards - Done.md": "b02e3a4006637f44ed14abcc1ec0698f"
+    "Summer 2022/CHEM4502/Anki Cards/Chapter 9 Anki Cards - Done.md": "78004666a2300a2ad437212d7601b412",
+    "Templates/Temporal/Dailynote.md": "a3746977d23ddf3d3f07bcb1a9895ccc",
+    "Daily Notes/2022-07-21.md": "c8fedce66bfaf995c66d32b953b01889",
+    "Daily Notes/2022-07-19.md": "a5f81134be0480cf84fc5587b77a5ef5",
+    "Daily Notes/2022-07-20.md": "6f045f59bbfeb81ac7a195ea4a124dad",
+    "Daily Notes/2022-07-18.md": "c281088b1d9363fa48ac1cf99cfca39e",
+    "Summer 2022/Primary Sources/Biology-Tablet.md": "066f523abb85e6be84cae288889754f2",
+    "Summer 2022/HSCI 1815/Lecture Notes/L12 - Readings and Notes.md": "3d745d13feeac91be2a6bb42aab7912a",
+    "Summer 2022/CHEM4502/Chapters/Chapters 3 and 4.md": "4410ee072fb3e453ecd3976481c1d0c5",
+    "Summer 2022/CHEM4502/Anki Cards/Chapter 2 Anki Cards - Done.md": "cadfa0ae1def9086596b96058da709a9",
+    "Summer 2022/CHEM4502/Anki Cards/Chapters 3 and 4 Anki Cards - Done.md": "cc9067c2ee470dc248b14b194209a34e",
+    "Summer 2022/CHEM4502/Anki Cards/Chapter 1 Anki Cards - Done.md": "6c9c82ed1aa877d8bc544676b28dfff3",
+    "Dashboards/Daily.md": "cc3e7c696c33c731bb8b65aa0425d62e",
+    "Dashboards/Fall 2022.md": "d41d8cd98f00b204e9800998ecf8427e",
+    "Dashboards/Summer 2022.md": "5982c344dd587898f64acb6a343f38e6",
+    "Dashboards/Dashboard.md": "0b72a6086bf20f47c0bf5aaeca17bc94",
+    "Summer 2022/CHEM4502/Anki Cards/Untitled.md": "c2f8a178e23025340c8fe8a2951a9193"
   },
   "fields_dict": {
     "AnKing": [
@@ -347,10 +371,19 @@
       "Back",
       "Extra"
     ],
+    "Basic-lesson": [
+      "Front",
+      "Back",
+      "Lesson",
+      "Course",
+      "Extra1",
+      "Extra2"
+    ],
     "Cloze": [
       "Text",
       "Back Extra",
-      "image"
+      "image",
+      "Source"
     ],
     "Cloze w/stuff for notes": [
       "Text",
@@ -365,6 +398,20 @@
       "Text",
       "Answer",
       "Solution"
+    ],
+    "Cloze-Lesson": [
+      "Text",
+      "Lesson",
+      "Course",
+      "Extra1",
+      "Extra2"
+    ],
+    "Cloze-With extra": [
+      "Text",
+      "Lesson",
+      "Course",
+      "Extra1",
+      "Extra2"
     ],
     "Dictionary Entry": [
       "Term",

@@ -16,8 +16,7 @@
   ],
   "syntax_highlighting": true,
   "enabled_templates_hotkeys": [
-    "Templates/Anki/Anki 2 Cloze Card.md",
-    "Templates/Anki/Anki Cloze.md"
+    "Templates/Anki/Anki 2 Basic Card.md"
   ],
   "startup_templates": [
     ""

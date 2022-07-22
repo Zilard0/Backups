@@ -2,7 +2,6 @@ START
 Cloze
 Front: {{c1::LCAO-MO}} : a means of using atomic orbitals (on different atoms) to construct MOs for the entire molecule; provide approximate solutions to the Schrodinger equation
 Back Extra: 
-
 <!--ID: 1658205266993-->
 END
 START
