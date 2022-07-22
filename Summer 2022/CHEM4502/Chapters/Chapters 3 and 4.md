@@ -11,7 +11,7 @@ ___
 * **Orthonormal** **vectors**: Vectors that are both normalized and orthogonal. Sets of wavefunctions are orthonormal.
 * **Commutators**: A mathematical check whether the order of operations matter. Also, operators commute if their eigenvalues can simultaneously be measured.
 * The eigenfunctions, or wavefunctions, allow for predictions to be made about physical observables according to postulates.
-* **Correspondence Principle**: Quantum Mechanics results must match macroscopic observations when applied to macro systems.
+* **Correspondence Principle**: Quantum Mechanics results must match macroscopic observations when applied to micro systems.
 * **Tunneling**: Existence of Quantum Mechanics' particles in classically forbidden regions
 * **Observable**: Something measurable
 * **Operator**: Performs a mathematical operation on a function
@@ -92,7 +92,7 @@ Use: An operator acts on a function to give a new function
 $$\hat A f(x)=g(x)$$
 
 #### Postulate 2's Equation
-Use: AN operator, its eigenfunctions, and the eigenvalues are defined by a specific relationship.
+Use: An operator, its eigenfunctions, and the eigenvalues are defined by a specific relationship.
 $$\hat A f(x)=af(x)$$
 * $a$=Eigenvalue
 * $f(x)$ = Eigenfunction of $\hat A$

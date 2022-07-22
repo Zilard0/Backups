@@ -36,7 +36,7 @@
   "dataview",
   "obsidian-emoji-toolbar",
   "obsidian-banners",
-  "obsidian-hover-editor",
   "homepage",
-  "customizable-page-header-buttons"
+  "customizable-page-header-buttons",
+  "obsidian-view-mode-by-frontmatter"
 ]

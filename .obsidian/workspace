@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "c42f3d92f3a711d9",
+        "id": "c7b98a02d12d52c4",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Dashboards/Summer 2022.md",
+            "mode": "preview",
+            "source": false
+          }
         }
       }
     ],
@@ -89,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Dashboards/Summer 2022.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Dashboards/Summer 2022.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +164,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Dashboards/Summer 2022.md"
+              }
             }
           },
           {
@@ -177,17 +185,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "c42f3d92f3a711d9",
+  "active": "c7b98a02d12d52c4",
   "lastOpenFiles": [
-    "Dashboards/Summer 2022.md",
-    "Summer 2022/CHEM4502/HW/CHEM4502 - HW4.md",
-    "Summer 2022/CHEM4502/HW/CHEM4502 - HW5.md",
-    "Summer 2022/CHEM4502/Lecture Problems/July 7 Problems.md",
-    "Summer 2022/Primary Sources/Biology.md",
-    "Dashboards/Fall 2022.md",
     "Dashboards/Dashboard.md",
-    "Summer 2022/CHEM4502/HW/CHEM4502 - HW1.md",
-    "Summer 2022/CHEM4502/Lecture Problems/June 9, 2022.md",
-    "Summer 2022/CHEM4502/Chapters/Chapter 10.md"
+    "Dashboards/Daily.md",
+    "Daily Notes/2022-07-10.md",
+    "Daily Notes/2022-07-13.md",
+    "Daily Notes/2022-07-18.md",
+    "Daily Notes/2022-07-21.md",
+    "Daily Notes/2022-07-20.md",
+    "Daily Notes/2022-07-19.md",
+    "Daily Notes/2021-07-19.md",
+    "Daily Notes/2022-07-11.md"
   ]
 }

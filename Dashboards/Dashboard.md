@@ -1,16 +1,17 @@
 ---
 cssclass: dashboard
+obsidianUIMode: preview
 ---
 
 # Personal
 - Journal
-	- Daily
+	- [[Daily]]
 	- Weekly
 	- Monthly
 	- Yearly
 - Travel
-	- US to Saudi
-	- Saudi to US
+	- US to home
+	- Home to US
 - Food
 	- Groceries
 	- Meal Prep Recipes
@@ -21,18 +22,18 @@ cssclass: dashboard
 
 # School
 - Semesters
-	- Summer 2022
+	- [[Summer 2022]]
 	- Fall 2022
 
 # Work
-- Aramco Reviews
+- Scholarship Reviews
 	- July 5
 	- July 11
 	- July 18
 - Important Emails
-	- Add claire emails here later
-	- Add insurance here
-	- ATP Desk Files
+	- Add Advisor emails here later
+	- Add Insurance here
+	- Help Desk Files
 - Important Dates
 	- Weekly Reviews
 
@@ -43,6 +44,7 @@ cssclass: dashboard
 - Math
 - Chemistry
 - Coding
+	- [[Python MOC]]
 - English
 - Books
 - Tweets & Threads
