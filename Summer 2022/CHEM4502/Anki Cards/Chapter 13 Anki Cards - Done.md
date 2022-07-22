@@ -8,8 +8,8 @@ Extra1:
 
 Extra2:
 
-Lesson:
-Course:
+Lesson: Chapter 13
+Course: CHEM4502
 <!--ID: 1658513210575-->
 END
 
@@ -35,8 +35,8 @@ Extra2:
 	* $\Delta J=\pm 1$ (Change in quantum number)
 	* Molecule must have a permanent dipole moment
 
-Lesson:
-Course:
+Lesson: Chapter 13
+Course: CHEM4502
 <!--ID: 1658513210579-->
 END
 
@@ -53,8 +53,8 @@ Extra1:
 * Can be very complex
 Extra2:
 
-Lesson:
-Course:
+Lesson: Chapter 13
+Course: CHEM4502
 <!--ID: 1658513210582-->
 END
 
@@ -88,8 +88,8 @@ Extra2:
 	* Linear molecules: 3N-5
 * The potential energy on a molecule is a function of the N vibrations, in case it was not affected by an external field
 * If a normal coordinate produced a change in dipole moment, the vibration may be IR active
-Lesson:
-Course:
+Lesson: Chapter 13
+Course: CHEM4502
 <!--ID: 1658513210586-->
 END
 
@@ -116,8 +116,8 @@ Extra2:
 * Types of bonds:
 	* Parallel band: Vibrations occur along the primary molecular axis; normal selection rules apply
 	* Perpendicular band: Vibration occurs perp to primary axis; $\Delta J \text{ is allowed}$ 
-Lesson:
-Course:
+Lesson: Chapter 13
+Course: CHEM4502
 <!--ID: 1658513210589-->
 END
 
@@ -141,8 +141,8 @@ Extra1:
 * Rotational spacings are usually too small to observe; vibrational+ electronic = Vibronic spectra
 Extra2:
 
-Lesson:
-Course:
+Lesson: Chapter 13
+Course: CHEM4502
 <!--ID: 1658513210594-->
 END
 
@@ -161,8 +161,8 @@ Extra1:
 
 Extra2:
 
-Lesson:
-Course:
+Lesson: Chapter 13
+Course: CHEM4502
 <!--ID: 1658513210598-->
 END
 
@@ -180,8 +180,8 @@ Extra1:
 
 Extra2:
 
-Lesson:
-Course:
+Lesson: Chapter 13
+Course: CHEM4502
 <!--ID: 1658513210601-->
 END
 
@@ -199,8 +199,8 @@ Extra1:
 
 Extra2:
 
-Lesson:
-Course:
+Lesson: Chapter 13
+Course: CHEM4502
 <!--ID: 1658513210605-->
 END
 
@@ -218,8 +218,8 @@ Extra1:
 ![[Pasted image 20220629230155.png|450]]
 Extra2:
 
-Lesson:
-Course:
+Lesson: Chapter 13
+Course: CHEM4502
 <!--ID: 1658513210608-->
 END
 
@@ -236,8 +236,8 @@ Extra1:
 
 Extra2:
 
-Lesson:
-Course:
+Lesson: Chapter 13
+Course: CHEM4502
 <!--ID: 1658513210611-->
 END
 
@@ -256,8 +256,8 @@ Use: Depends on the fundamental frequency $(\tilde v_{e} )$
 Extra2:
 * $\tilde\chi_{e}=\text{ Anharmonicity constant}$
 ![[Pasted image 20220629231628.png|450]]
-Lesson:
-Course:
+Lesson: Chapter 13
+Course: CHEM4502
 <!--ID: 1658513210614-->
 END
 
@@ -283,8 +283,8 @@ Extra1:
 
 Extra2:
 
-Lesson:
-Course:
+Lesson: Chapter 13
+Course: CHEM4502
 <!--ID: 1658513210618-->
 END
 
@@ -300,8 +300,8 @@ Extra1:
 
 Extra2:
 
-Lesson:
-Course:
+Lesson: Chapter 13
+Course: CHEM4502
 <!--ID: 1658513210622-->
 END
 
@@ -318,8 +318,8 @@ Extra1:
 
 Extra2:
 
-Lesson:
-Course:
+Lesson: Chapter 13
+Course: CHEM4502
 <!--ID: 1658513210625-->
 END
 
@@ -336,8 +336,8 @@ Extra1:
 Use: Finding the transition between the two ground vibrational states of two electronic states.
 Extra2:
 
-Lesson:
-Course:
+Lesson: Chapter 13
+Course: CHEM4502
 <!--ID: 1658513210629-->
 END
 
@@ -354,8 +354,8 @@ Extra1:
 
 Extra2:
 
-Lesson:
-Course:
+Lesson: Chapter 13
+Course: CHEM4502
 <!--ID: 1658513210633-->
 END
 

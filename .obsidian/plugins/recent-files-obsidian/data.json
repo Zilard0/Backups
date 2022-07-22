@@ -1,32 +1,48 @@
 {
   "recentFiles": [
     {
-      "basename": "Math Chapter B",
-      "path": "Summer 2022/CHEM4502/Chapters/Math Chapter B.md"
-    },
-    {
-      "basename": "Math Chapter B Anki Cards - Done",
-      "path": "Summer 2022/CHEM4502/Anki Cards/Math Chapter B Anki Cards - Done.md"
+      "basename": "Approximation Methods",
+      "path": "Dashboards/Approximation Methods.md"
     },
     {
       "basename": "Summer 2022",
       "path": "Dashboards/Summer 2022.md"
     },
     {
-      "basename": "Chapter 13",
-      "path": "Summer 2022/CHEM4502/Chapters/Chapter 13.md"
-    },
-    {
       "basename": "Chapter 13 Anki Cards - Done",
       "path": "Summer 2022/CHEM4502/Anki Cards/Chapter 13 Anki Cards - Done.md"
     },
     {
-      "basename": "Chapter 5",
-      "path": "Summer 2022/CHEM4502/Chapters/Chapter 5.md"
-    },
-    {
       "basename": "Chapter 5 Anki Cards - Done",
       "path": "Summer 2022/CHEM4502/Anki Cards/Chapter 5 Anki Cards - Done.md"
+    },
+    {
+      "basename": "Math Chapter B Anki Cards - Done",
+      "path": "Summer 2022/CHEM4502/Anki Cards/Math Chapter B Anki Cards - Done.md"
+    },
+    {
+      "basename": "Chapters 3 and 4 Anki Cards - Done",
+      "path": "Summer 2022/CHEM4502/Anki Cards/Chapters 3 and 4 Anki Cards - Done.md"
+    },
+    {
+      "basename": "Chapter 1 Anki Cards - Done",
+      "path": "Summer 2022/CHEM4502/Anki Cards/Chapter 1 Anki Cards - Done.md"
+    },
+    {
+      "basename": "Dashboard",
+      "path": "Dashboards/Dashboard.md"
+    },
+    {
+      "basename": "Math Chapter B",
+      "path": "Summer 2022/CHEM4502/Chapters/Math Chapter B.md"
+    },
+    {
+      "basename": "Chapter 13",
+      "path": "Summer 2022/CHEM4502/Chapters/Chapter 13.md"
+    },
+    {
+      "basename": "Chapter 5",
+      "path": "Summer 2022/CHEM4502/Chapters/Chapter 5.md"
     },
     {
       "basename": "Anki 2 Basic Card",
@@ -37,16 +53,8 @@
       "path": "Templates/Anki/Anki 2 Cloze Card.md"
     },
     {
-      "basename": "Chapters 3 and 4 Anki Cards - Done",
-      "path": "Summer 2022/CHEM4502/Anki Cards/Chapters 3 and 4 Anki Cards - Done.md"
-    },
-    {
       "basename": "Chapter 2 Anki Cards - Done",
       "path": "Summer 2022/CHEM4502/Anki Cards/Chapter 2 Anki Cards - Done.md"
-    },
-    {
-      "basename": "Chapter 1 Anki Cards - Done",
-      "path": "Summer 2022/CHEM4502/Anki Cards/Chapter 1 Anki Cards - Done.md"
     },
     {
       "basename": "Anki Quoteobs",
@@ -71,10 +79,6 @@
     {
       "basename": "Anki 0 Link",
       "path": "Templates/Anki/Anki 0 Link.md"
-    },
-    {
-      "basename": "Dashboard",
-      "path": "Dashboards/Dashboard.md"
     },
     {
       "basename": "Chapters 3 and 4",
@@ -195,10 +199,6 @@
     {
       "basename": "2022-07-17",
       "path": "Daily Notes/2022-07-17.md"
-    },
-    {
-      "basename": "2022-07-15",
-      "path": "Daily Notes/2022-07-15.md"
     }
   ],
   "omittedPaths": [],

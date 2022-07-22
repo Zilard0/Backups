@@ -10,8 +10,8 @@ Extra1:
 
 Extra2:
 
-Lesson:
-Course:
+Lesson: Math Chapter B
+Course: CHEM4502
 <!--ID: 1658513210552-->
 END
 
@@ -27,8 +27,8 @@ Extra1:
 
 Extra2:
 
-Lesson:
-Course:
+Lesson: Math Chapter B
+Course: CHEM4502
 <!--ID: 1658513210556-->
 END
 
@@ -44,8 +44,8 @@ Extra1:
 
 Extra2:
 
-Lesson:
-Course:
+Lesson: Math Chapter B
+Course: CHEM4502
 <!--ID: 1658513210560-->
 END
 
@@ -61,8 +61,8 @@ Extra1:
 
 Extra2:
 
-Lesson:
-Course:
+Lesson: Math Chapter B
+Course: CHEM4502
 <!--ID: 1658513210563-->
 END
 
@@ -78,8 +78,8 @@ Extra1:
 
 Extra2:
 
-Lesson:
-Course:
+Lesson: Math Chapter B
+Course: CHEM4502
 <!--ID: 1658513210566-->
 END
 
@@ -95,8 +95,8 @@ Extra1:
 
 Extra2:
 
-Lesson:
-Course:
+Lesson: Math Chapter B
+Course: CHEM4502
 <!--ID: 1658513210570-->
 END
 

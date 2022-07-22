@@ -19,8 +19,8 @@ $$\begin{align*}
 $$x(t)=A\cos(wt)$$
 Extra2:
 
-Lesson:
-Course:
+Lesson: Chapter 5
+Course: CHEM4502
 <!--ID: 1658513210636-->
 END
 
@@ -38,8 +38,8 @@ Extra1:
 
 Extra2:
 
-Lesson:
-Course:
+Lesson: Chapter 5
+Course: CHEM4502
 <!--ID: 1658513210640-->
 END
 
@@ -61,8 +61,8 @@ Extra1:
 * Requires KE < 0 (?)
 Extra2:
 
-Lesson:
-Course:
+Lesson: Chapter 5
+Course: CHEM4502
 <!--ID: 1658513210643-->
 END
 
@@ -78,8 +78,8 @@ Extra1:
 	* $\left<p\right>=0$
 Extra2:
 
-Lesson:
-Course:
+Lesson: Chapter 5
+Course: CHEM4502
 <!--ID: 1658513210646-->
 END
 
@@ -114,8 +114,8 @@ $$\begin{align*}
 &\text{Where Angular momentum is }I\omega 
 \end{align*}$$
 
-Lesson:
-Course:
+Lesson: Chapter 5
+Course: CHEM4502
 <!--ID: 1658513210650-->
 END
 
@@ -132,8 +132,8 @@ Extra1:
 Use: In spectroscopy, we often use wavenumbers instead of frequency
 Extra2:
 
-Lesson:
-Course:
+Lesson: Chapter 5
+Course: CHEM4502
 <!--ID: 1658513210654-->
 END
 
@@ -151,8 +151,8 @@ Extra1:
 
 Extra2:
 
-Lesson:
-Course:
+Lesson: Chapter 5
+Course: CHEM4502
 <!--ID: 1658513210657-->
 END
 
@@ -170,8 +170,8 @@ Extra1:
 Use: Effective mass at the center of mass of a multi body object.
 Extra2:
 
-Lesson:
-Course:
+Lesson: Chapter 5
+Course: CHEM4502
 <!--ID: 1658513210661-->
 END
 
@@ -187,8 +187,8 @@ Extra1:
 
 Extra2:
 
-Lesson:
-Course:
+Lesson: Chapter 5
+Course: CHEM4502
 <!--ID: 1658513210664-->
 END
 
@@ -203,8 +203,8 @@ Extra1:
 
 Extra2:
 
-Lesson:
-Course:
+Lesson: Chapter 5
+Course: CHEM4502
 <!--ID: 1658513210667-->
 END
 
@@ -222,8 +222,8 @@ Extra1:
 * **NOTE THAT THERE ARE TWO DIFFERENT $v$ VALUES. THE ONE INSIDE THE BRACKETS IS AN INTEGER AND THE OTHER $v$ IS THE FREQUENCY**
 Extra2:
 
-Lesson:
-Course:
+Lesson: Chapter 5
+Course: CHEM4502
 <!--ID: 1658513210671-->
 END
 
@@ -239,8 +239,8 @@ Extra1:
 
 Extra2:
 
-Lesson:
-Course:
+Lesson: Chapter 5
+Course: CHEM4502
 <!--ID: 1658513210674-->
 END
 
@@ -258,8 +258,8 @@ Extra1:
 
 Extra2:
 
-Lesson:
-Course:
+Lesson: Chapter 5
+Course: CHEM4502
 <!--ID: 1658513210678-->
 END
 
@@ -276,8 +276,8 @@ Extra1:
 * Note that the book uses $J$ not $I$
 Extra2:
 
-Lesson:
-Course:
+Lesson: Chapter 5
+Course: CHEM4502
 <!--ID: 1658513210681-->
 END
 
@@ -293,8 +293,8 @@ Extra1:
 
 Extra2:
 
-Lesson:
-Course:
+Lesson: Chapter 5
+Course: CHEM4502
 <!--ID: 1658513210684-->
 END
 

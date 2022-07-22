@@ -16,6 +16,7 @@ obsidianUIMode: preview
 	- [[Chapter 10]]
 	- [[Chapter 6]]
 	- [[Chapter 10]]
+	- [[Approximation Methods]]
 
 - Homework
 	- [[CHEM4502 - HW1]]
