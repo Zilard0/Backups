@@ -1,8 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "Try it! Build a My Interests Web Page",
-      "path": "Dashboards/Try it! Build a My Interests Web Page.md"
+      "basename": "2022-07-22",
+      "path": "Daily Notes/2022-07-22.md"
+    },
+    {
+      "basename": "2022-07-23",
+      "path": "Daily Notes/2022-07-23.md"
     },
     {
       "basename": "Java Programming and Software Engineering Fundamentals (Coursera)",
@@ -11,6 +15,10 @@
     {
       "basename": "Metadata and Sectioning Elements",
       "path": "Dashboards/Metadata and Sectioning Elements.md"
+    },
+    {
+      "basename": "Try it! Build a My Interests Web Page",
+      "path": "Dashboards/Try it! Build a My Interests Web Page.md"
     },
     {
       "basename": "What Is HTML",
@@ -59,10 +67,6 @@
     {
       "basename": "Anki 2 Basic Card",
       "path": "Templates/Anki/Anki 2 Basic Card.md"
-    },
-    {
-      "basename": "2022-07-22",
-      "path": "Daily Notes/2022-07-22.md"
     },
     {
       "basename": "2022-07-21",
@@ -195,10 +199,6 @@
     {
       "basename": "Python MOC",
       "path": "Coding/Python/Python MOC.md"
-    },
-    {
-      "basename": "CHEM4502 - HW5",
-      "path": "Summer 2022/CHEM4502/HW/CHEM4502 - HW5.md"
     }
   ],
   "omittedPaths": [],
