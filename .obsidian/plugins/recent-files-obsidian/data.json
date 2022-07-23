@@ -1,6 +1,46 @@
 {
   "recentFiles": [
     {
+      "basename": "Approximation Methods",
+      "path": "Dashboards/Approximation Methods.md"
+    },
+    {
+      "basename": "weekly",
+      "path": "Templates/Temporal/weekly.md"
+    },
+    {
+      "basename": "Today",
+      "path": "Templates/Temporal/Today.md"
+    },
+    {
+      "basename": "Now",
+      "path": "Templates/Temporal/Now.md"
+    },
+    {
+      "basename": "Annual Note",
+      "path": "Templates/Temporal/Annual Note.md"
+    },
+    {
+      "basename": "Dailynote",
+      "path": "Templates/Temporal/Dailynote.md"
+    },
+    {
+      "basename": "Date",
+      "path": "Templates/Temporal/Date.md"
+    },
+    {
+      "basename": "monthly",
+      "path": "Templates/Temporal/monthly.md"
+    },
+    {
+      "basename": "time",
+      "path": "Templates/Temporal/time.md"
+    },
+    {
+      "basename": "Dashboard",
+      "path": "Dashboards/Dashboard.md"
+    },
+    {
       "basename": "2022-07-22",
       "path": "Daily Notes/2022-07-22.md"
     },
@@ -41,10 +81,6 @@
       "path": "Dashboards/Tips for Learning Programming.md"
     },
     {
-      "basename": "Dashboard",
-      "path": "Dashboards/Dashboard.md"
-    },
-    {
       "basename": "Chapter 9 Anki Cards - Done",
       "path": "Summer 2022/CHEM4502/Anki Cards/Chapter 9 Anki Cards - Done.md"
     },
@@ -79,14 +115,6 @@
     {
       "basename": "2022-07-14",
       "path": "Daily Notes/2022-07-14.md"
-    },
-    {
-      "basename": "Dailynote",
-      "path": "Templates/Temporal/Dailynote.md"
-    },
-    {
-      "basename": "Approximation Methods",
-      "path": "Dashboards/Approximation Methods.md"
     },
     {
       "basename": "Summer 2022",
@@ -171,34 +199,6 @@
     {
       "basename": "2022-07-18",
       "path": "Daily Notes/2022-07-18.md"
-    },
-    {
-      "basename": "2022-07-19",
-      "path": "Daily Notes/2022-07-19.md"
-    },
-    {
-      "basename": "2022-07-11",
-      "path": "Daily Notes/2022-07-11.md"
-    },
-    {
-      "basename": "Fall 2022",
-      "path": "Dashboards/Fall 2022.md"
-    },
-    {
-      "basename": "Chapter 2",
-      "path": "Summer 2022/CHEM4502/Chapters/Chapter 2.md"
-    },
-    {
-      "basename": "bblue",
-      "path": "Templates/Formatting/LaTeX/bblue.md"
-    },
-    {
-      "basename": "Chapter 1",
-      "path": "Summer 2022/CHEM4502/Chapters/Chapter 1.md"
-    },
-    {
-      "basename": "Python MOC",
-      "path": "Coding/Python/Python MOC.md"
     }
   ],
   "omittedPaths": [],
