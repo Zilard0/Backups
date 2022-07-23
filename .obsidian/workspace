@@ -4,12 +4,36 @@
     "type": "split",
     "children": [
       {
-        "id": "93156700f204447b",
+        "id": "062271e60b52fefd",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Dashboards/Approximation Methods.md",
+            "file": "Dashboards/Java Programming and Software Engineering Fundamentals (Coursera).md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "fe34d260ef3a56e4",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Dashboards/Try it! Build a My Interests Web Page.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "dc9bdd7a56bb3937",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Dashboards/Metadata and Sectioning Elements.md",
             "mode": "source",
             "source": false
           }
@@ -93,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dashboards/Approximation Methods.md",
+                "file": "Dashboards/Try it! Build a My Interests Web Page.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Dashboards/Approximation Methods.md",
+                "file": "Dashboards/Try it! Build a My Interests Web Page.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +189,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dashboards/Approximation Methods.md"
+                "file": "Dashboards/Try it! Build a My Interests Web Page.md"
               }
             }
           },
@@ -185,17 +209,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "93156700f204447b",
+  "active": "fe34d260ef3a56e4",
   "lastOpenFiles": [
-    "Dashboards/Summer 2022.md",
-    "Dashboards/Approximation Methods.md",
-    "Summer 2022/CHEM4502/Anki Cards/Chapter 13 Anki Cards - Done.md",
-    "Summer 2022/CHEM4502/Anki Cards/Chapter 5 Anki Cards - Done.md",
-    "Summer 2022/CHEM4502/Anki Cards/Math Chapter B Anki Cards - Done.md",
-    "Summer 2022/CHEM4502/Anki Cards/Chapters 3 and 4 Anki Cards - Done.md",
-    "Summer 2022/CHEM4502/Anki Cards/Chapter 1 Anki Cards - Done.md",
+    "Dashboards/Java Programming and Software Engineering Fundamentals (Coursera).md",
+    "Dashboards/Metadata and Sectioning Elements.md",
+    "Dashboards/What Is HTML.md",
+    "Dashboards/Using CodePen.md",
+    "Dashboards/Resources to Help Succeed.md",
+    "Dashboards/Using Forums - How to Ask for Help Effectively.md",
+    "Dashboards/Tips for Learning Programming.md",
     "Dashboards/Dashboard.md",
-    "Summer 2022/CHEM4502/Chapters/Math Chapter B.md",
-    "Summer 2022/CHEM4502/Chapters/Chapter 13.md"
+    "Summer 2022/CHEM4502/Anki Cards/Chapter 9 Anki Cards - Done.md",
+    "Summer 2022/CHEM4502/Anki Cards/Chapter 6 Anki Cards - Done.md"
   ]
 }

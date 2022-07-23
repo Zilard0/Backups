@@ -45,6 +45,7 @@ obsidianUIMode: preview
 - Chemistry
 - Coding
 	- [[Python MOC]]
+	- [[Java Programming and Software Engineering Fundamentals (Coursera)]]
 - English
 - Books
 - Tweets & Threads

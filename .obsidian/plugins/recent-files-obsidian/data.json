@@ -1,6 +1,86 @@
 {
   "recentFiles": [
     {
+      "basename": "Try it! Build a My Interests Web Page",
+      "path": "Dashboards/Try it! Build a My Interests Web Page.md"
+    },
+    {
+      "basename": "Java Programming and Software Engineering Fundamentals (Coursera)",
+      "path": "Dashboards/Java Programming and Software Engineering Fundamentals (Coursera).md"
+    },
+    {
+      "basename": "Metadata and Sectioning Elements",
+      "path": "Dashboards/Metadata and Sectioning Elements.md"
+    },
+    {
+      "basename": "What Is HTML",
+      "path": "Dashboards/What Is HTML.md"
+    },
+    {
+      "basename": "Using CodePen",
+      "path": "Dashboards/Using CodePen.md"
+    },
+    {
+      "basename": "Resources to Help Succeed",
+      "path": "Dashboards/Resources to Help Succeed.md"
+    },
+    {
+      "basename": "Using Forums - How to Ask for Help Effectively",
+      "path": "Dashboards/Using Forums - How to Ask for Help Effectively.md"
+    },
+    {
+      "basename": "Tips for Learning Programming",
+      "path": "Dashboards/Tips for Learning Programming.md"
+    },
+    {
+      "basename": "Dashboard",
+      "path": "Dashboards/Dashboard.md"
+    },
+    {
+      "basename": "Chapter 9 Anki Cards - Done",
+      "path": "Summer 2022/CHEM4502/Anki Cards/Chapter 9 Anki Cards - Done.md"
+    },
+    {
+      "basename": "Chapter 6 Anki Cards - Done",
+      "path": "Summer 2022/CHEM4502/Anki Cards/Chapter 6 Anki Cards - Done.md"
+    },
+    {
+      "basename": "Chapter 2 Anki Cards - Done",
+      "path": "Summer 2022/CHEM4502/Anki Cards/Chapter 2 Anki Cards - Done.md"
+    },
+    {
+      "basename": "Chapter 1 Anki Cards - Done",
+      "path": "Summer 2022/CHEM4502/Anki Cards/Chapter 1 Anki Cards - Done.md"
+    },
+    {
+      "basename": "Anki 2 Cloze Card",
+      "path": "Templates/Anki/Anki 2 Cloze Card.md"
+    },
+    {
+      "basename": "Anki 2 Basic Card",
+      "path": "Templates/Anki/Anki 2 Basic Card.md"
+    },
+    {
+      "basename": "2022-07-22",
+      "path": "Daily Notes/2022-07-22.md"
+    },
+    {
+      "basename": "2022-07-21",
+      "path": "Daily Notes/2022-07-21.md"
+    },
+    {
+      "basename": "2022-07-20",
+      "path": "Daily Notes/2022-07-20.md"
+    },
+    {
+      "basename": "2022-07-14",
+      "path": "Daily Notes/2022-07-14.md"
+    },
+    {
+      "basename": "Dailynote",
+      "path": "Templates/Temporal/Dailynote.md"
+    },
+    {
       "basename": "Approximation Methods",
       "path": "Dashboards/Approximation Methods.md"
     },
@@ -25,14 +105,6 @@
       "path": "Summer 2022/CHEM4502/Anki Cards/Chapters 3 and 4 Anki Cards - Done.md"
     },
     {
-      "basename": "Chapter 1 Anki Cards - Done",
-      "path": "Summer 2022/CHEM4502/Anki Cards/Chapter 1 Anki Cards - Done.md"
-    },
-    {
-      "basename": "Dashboard",
-      "path": "Dashboards/Dashboard.md"
-    },
-    {
       "basename": "Math Chapter B",
       "path": "Summer 2022/CHEM4502/Chapters/Math Chapter B.md"
     },
@@ -43,18 +115,6 @@
     {
       "basename": "Chapter 5",
       "path": "Summer 2022/CHEM4502/Chapters/Chapter 5.md"
-    },
-    {
-      "basename": "Anki 2 Basic Card",
-      "path": "Templates/Anki/Anki 2 Basic Card.md"
-    },
-    {
-      "basename": "Anki 2 Cloze Card",
-      "path": "Templates/Anki/Anki 2 Cloze Card.md"
-    },
-    {
-      "basename": "Chapter 2 Anki Cards - Done",
-      "path": "Summer 2022/CHEM4502/Anki Cards/Chapter 2 Anki Cards - Done.md"
     },
     {
       "basename": "Anki Quoteobs",
@@ -85,10 +145,6 @@
       "path": "Summer 2022/CHEM4502/Chapters/Chapters 3 and 4.md"
     },
     {
-      "basename": "Chapter 9 Anki Cards - Done",
-      "path": "Summer 2022/CHEM4502/Anki Cards/Chapter 9 Anki Cards - Done.md"
-    },
-    {
       "basename": "Chapter 10 Anki Cards - Done",
       "path": "Summer 2022/CHEM4502/Anki Cards/Chapter 10 Anki Cards - Done.md"
     },
@@ -113,24 +169,12 @@
       "path": "Daily Notes/2022-07-18.md"
     },
     {
-      "basename": "2022-07-21",
-      "path": "Daily Notes/2022-07-21.md"
-    },
-    {
-      "basename": "2022-07-20",
-      "path": "Daily Notes/2022-07-20.md"
-    },
-    {
       "basename": "2022-07-19",
       "path": "Daily Notes/2022-07-19.md"
     },
     {
       "basename": "2022-07-11",
       "path": "Daily Notes/2022-07-11.md"
-    },
-    {
-      "basename": "Dailynote",
-      "path": "Templates/Temporal/Dailynote.md"
     },
     {
       "basename": "Fall 2022",
@@ -155,50 +199,6 @@
     {
       "basename": "CHEM4502 - HW5",
       "path": "Summer 2022/CHEM4502/HW/CHEM4502 - HW5.md"
-    },
-    {
-      "basename": "July 7 Problems",
-      "path": "Summer 2022/CHEM4502/Lecture Problems/July 7 Problems.md"
-    },
-    {
-      "basename": "Biology",
-      "path": "Summer 2022/Primary Sources/Biology.md"
-    },
-    {
-      "basename": "CHEM4502 - HW1",
-      "path": "Summer 2022/CHEM4502/HW/CHEM4502 - HW1.md"
-    },
-    {
-      "basename": "June 9, 2022",
-      "path": "Summer 2022/CHEM4502/Lecture Problems/June 9, 2022.md"
-    },
-    {
-      "basename": "Chapter 10",
-      "path": "Summer 2022/CHEM4502/Chapters/Chapter 10.md"
-    },
-    {
-      "basename": "Daily Template",
-      "path": "Templates/Daily Template.md"
-    },
-    {
-      "basename": "eqn",
-      "path": "Templates/eqn.md"
-    },
-    {
-      "basename": "Course Template",
-      "path": "Templates/Course Template.md"
-    },
-    {
-      "basename": "Meta",
-      "path": "Templates/Meta.md"
-    },
-    {
-      "basename": "Chapter 9",
-      "path": "Summer 2022/CHEM4502/Chapters/Chapter 9.md"
-    },
-    {
-      "basename": "2022-07-17",
-      "path": "Daily Notes/2022-07-17.md"
     }
   ],
   "omittedPaths": [],
