@@ -10,9 +10,9 @@ Extra1:
 
 Extra2:
 
-Lesson:
-Course:
-
+Lesson: Approximation Methods
+Course: CHEM4502
+<!--ID: 1658631679885-->
 END
 
 START
@@ -25,9 +25,9 @@ Extra1:
 
 Extra2:
 
-Lesson:
-Course:
-
+Lesson: Approximation Methods
+Course: CHEM4502
+<!--ID: 1658631679891-->
 END
 
 START
@@ -42,9 +42,9 @@ Extra1:
 	- the $N\times N$ secular determinant gives N energies, one for each unique MO wavefunction
 Extra2:
 
-Lesson:
-Course:
-
+Lesson: Approximation Methods
+Course: CHEM4502
+<!--ID: 1658631679894-->
 END
 
 START
@@ -60,9 +60,9 @@ Extra1:
 
 Extra2:
 
-Lesson:
-Course:
-
+Lesson: Approximation Methods
+Course: CHEM4502
+<!--ID: 1658631679899-->
 END
 
 START
@@ -82,9 +82,9 @@ Assumptions:
 	- Resonance Energy: a comparison of the $\pi$ energy of a conjugated system to that of ethylene. $E=2\alpha+2\beta$ for ethylene (2 electrons)
 Extra2:
 
-Lesson:
-Course:
-
+Lesson: Approximation Methods
+Course: CHEM4502
+<!--ID: 1658631679903-->
 END
 
 START
@@ -100,9 +100,9 @@ Extra1:
 - Increasing the size of the basis set should lower the varitational energy
 Extra2:
 
-Lesson:
-Course:
-
+Lesson: Approximation Methods
+Course: CHEM4502
+<!--ID: 1658631679907-->
 END
 
 START
@@ -120,9 +120,9 @@ Extra1:
 Extra2:
 ![[Approximation Methods - GTO vs STO.png|400]]
 
-Lesson:
-Course:
-
+Lesson: Approximation Methods
+Course: CHEM4502
+<!--ID: 1658631679911-->
 END
 
 START
@@ -137,9 +137,9 @@ Extra1:
 - The more Gaussians used, the better; N=3 and N=6 are common
 Extra2:
 ![[Approximation Methods - LC of Gaussian Functions.png|400]]
-Lesson:
-Course:
-
+Lesson: Approximation Methods
+Course: CHEM4502
+<!--ID: 1658631679915-->
 END
 
 START
@@ -155,9 +155,9 @@ Extra1:
 - STO-mG: minimal basis set, with m primitive per basis function
 Extra2:
 
-Lesson:
-Course:
-
+Lesson: Approximation Methods
+Course: CHEM4502
+<!--ID: 1658631679919-->
 END
 
 START
@@ -174,9 +174,9 @@ Extra1:
 - A multi $\zeta$ secular determinant is larger than a single $\zeta$ determinant of the same number of primitives, so flexibility comes at the expense of efficiency
 Extra2:
 
-Lesson:
-Course:
-
+Lesson: Approximation Methods
+Course: CHEM4502
+<!--ID: 1658631679923-->
 END
 
 START
@@ -194,9 +194,9 @@ Extra1:
 	- Each digit represents number of primitives in each valence CGF
 Extra2:
 
-Lesson:
-Course:
-
+Lesson: Approximation Methods
+Course: CHEM4502
+<!--ID: 1658631679927-->
 END
 
 START
@@ -211,9 +211,9 @@ Extra1:
 - - Split valence in nature; X indicates the valence number (D=2, T=3, Q=4; 5 and 6 are also available)
 Extra2:
 
-Lesson:
-Course:
-
+Lesson: Approximation Methods
+Course: CHEM4502
+<!--ID: 1658631679932-->
 END
 
 START
@@ -232,9 +232,9 @@ Extra2:
 - Types of ECPs
 	- Large core ECP: Has explicit functions only for valence electrons
 	- Small core ECP: Has explicit functions for valence, n-1 electrons
-Lesson:
-Course:
-
+Lesson: Approximation Methods
+Course: CHEM4502
+<!--ID: 1658631679936-->
 END
 
 START
@@ -251,9 +251,9 @@ Extra1:
 		- cc-type: Included in basis set definition
 Extra2:
 
-Lesson:
-Course:
-
+Lesson: Approximation Methods
+Course: CHEM4502
+<!--ID: 1658631679940-->
 END
 
 START
@@ -270,9 +270,9 @@ Extra1:
 	- cc-type: some diffuse functions are already present; additional ones added via aug prefix (aug-cc=PVDZ)
 Extra2:
 
-Lesson:
-Course:
-
+Lesson: Approximation Methods
+Course: CHEM4502
+<!--ID: 1658631679943-->
 END
 
 START
@@ -289,9 +289,9 @@ Extra1:
 - Each configuration is a separate HF Calculation; MCSCF is quite expensive and difficult to employ
 Extra2:
 
-Lesson:
-Course:
-
+Lesson: Approximation Methods
+Course: CHEM4502
+<!--ID: 1658631679946-->
 END
 
 START
@@ -312,9 +312,9 @@ Extra2:
 - CI methods are not size consistent:
 	- CIQ (quadruples) gives different energies than adding two analogous CID calculations
 	- Size inconsistency is problematic when using truncated CI
-Lesson:
-Course:
-
+Lesson: Approximation Methods
+Course: CHEM4502
+<!--ID: 1658631679950-->
 END
 
 START
@@ -335,9 +335,9 @@ Extra1:
 	- CCSD (T): includes simplified triples; is now often used as a gold-standard calculation 
 Extra2:
 - Is expensive, but can be truncated
-Lesson:
-Course:
-
+Lesson: Approximation Methods
+Course: CHEM4502
+<!--ID: 1658631679954-->
 END
 
 START
@@ -358,9 +358,9 @@ Extra2:
 - Many versions of DFT have been developed:
 	- All essentially differ in their means of estimating $E_{xc}$
 	- Different methods typically have an exchange functional and a correlation functinal; one pairs two to get the full model (e.g. B+LYP=BLYP)
-Lesson:
-Course:
-
+Lesson: Approximation Methods
+Course: CHEM4502
+<!--ID: 1658631679958-->
 END
 
 START
@@ -376,9 +376,9 @@ Extra1:
 - B3LYP is especially common; it usually strikes a good balance between efficiency/cost and accuracy
 Extra2:
 
-Lesson:
-Course:
-
+Lesson: Approximation Methods
+Course: CHEM4502
+<!--ID: 1658631679961-->
 END
 
 START
@@ -391,9 +391,9 @@ Extra1:
 
 Extra2:
 
-Lesson:
-Course:
-
+Lesson: Approximation Methods
+Course: CHEM4502
+<!--ID: 1658631679965-->
 END
 
 START
@@ -407,24 +407,324 @@ Extra1:
 
 Extra2:
 
-Lesson:
-Course:
-
+Lesson: Approximation Methods
+Course: CHEM4502
+<!--ID: 1658631679969-->
 END
 
 START
 Basic-lesson
 Front: 
-<% tp.file.cursor(0) %>
+**What are Hartree-Fock Self Consistent Field (SCF) Methods?**
 Back: 
-<% tp.file.cursor(1) %>
+Model electron clouds using averaged electron densities, with the final solution achieved iteratively
 Extra1:
-<% tp.file.cursor(2) %>
-Extra2:
-<% tp.file.cursor(3) %>
-Lesson:
-Course:
 
+Extra2:
+
+Lesson: Approximation Methods
+Course: CHEM4502
+<!--ID: 1658631679972-->
 END
 
-<% tp.file.cursor(4) %>
+START
+Basic-lesson
+Front: 
+What does semi-empirical refer to in Approxmation Methods?
+Back: 
+Using pre-defined integrals and basis sets to reduce requisite calculations; solutions are quicker but lower quality
+Extra1:
+
+Extra2:
+
+Lesson: Approximation Methods
+Course: CHEM4502
+<!--ID: 1658631679976-->
+END
+
+START
+Basic-lesson
+Front: 
+What is Perturbation theory in Approximation Methods?
+Back: 
+A solvable model is used as a starting point, with additional terms added to estimate differences between the model and the real complicated system
+Extra1:
+
+Extra2:
+
+Lesson: Approximation Methods
+Course: CHEM4502
+<!--ID: 1658631679979-->
+END
+
+START
+Basic-lesson
+Front: 
+**What is MCSCF in Approximation Methods?**
+Back: 
+SCF Calculations are performed for different electron configurations, and the results are themselves linearly combined; CI is MCSCF with all configuration considered
+Extra1:
+
+Extra2:
+
+Lesson: Approximation Methods
+Course: CHEM4502
+<!--ID: 1658631679984-->
+END
+
+START
+Basic-lesson
+Front: 
+**What is CC in Approximation Methods?**
+Back: 
+Similar to MCSCF, but formulated in a different and more reliable way
+Extra1:
+
+Extra2:
+
+Lesson: Approximation Methods
+Course: CHEM4502
+<!--ID: 1658631679988-->
+END
+
+START
+Basic-lesson
+Front: 
+**What is Density functional theory (DFT) in Approximation Methods?**
+Back: 
+Fundamentally different than other methods, but in practice done in much the same way; based on electron density (rather than AOs) and not inherently flawed (But error-inducing approximations must still be made)
+Extra1:
+
+Extra2:
+
+Lesson: Approximation Methods
+Course: CHEM4502
+<!--ID: 1658631679991-->
+END
+
+START
+Basic-lesson
+Front: 
+**What are the steps involved in using Hartree SCF?**
+Back: 
+1. Make initial guess wavefunctions for each electron
+2. Build $h_{i}$ operators for each wavefunction
+3. Solve Schrödinger equation for each wavefunction
+4. Use new set of wavefunctions to generate new set of $h_{i}$
+5. Repeat until wavefunctions converge
+Extra1:
+![[Approximation Methods - Hartree SCF.png|500]]
+Extra2:
+
+Lesson: Approximation Methods
+Course: CHEM4502
+<!--ID: 1658631679995-->
+END
+
+START
+Basic-lesson
+Front: 
+**What are the two major flaws of Hartree SCF for Approximation Methods?**
+Back: 
+- Electron-electron repulsion is double countered; can be corrected
+- Does not account for spin, indistinguishability; can be corrected using Slater determinants ala Fock (to give Hartree-Fock theory) and create Fock operators ($f_{i}$)
+Extra1:
+
+Extra2:
+
+Lesson: Approximation Methods
+Course: CHEM4502
+<!--ID: 1658631679999-->
+END
+
+START
+Basic-lesson
+Front: 
+### Basics of Semiempricial Methods for Approximation Methods in Computational Chemistry?
+Back: 
+- Modify HF theory and simplify integrals
+- Small, predefined basis sets, adjustable parameters used to estimate certain types of integrals
+- Parameter values chosen to recreate certain experimental results
+
+Extra1:
+- Relatively fast, applicable to large systems
+- Accuracy is suspect (order of magnitude calculations)
+Extra2:
+
+Lesson: Approximation Methods
+Course: CHEM4502
+<!--ID: 1658631680002-->
+END
+
+START
+Basic-lesson
+Front: 
+### Basics of Perturbation Theory For Computational Chemistry?
+Back: 
+- Solutions are based on simple, solvable systems
+- Simple systems are perturbed, resulting changes are determined
+al)
+
+Extra1:
+- Works best when perturbations re small
+- Does not provide upper limits to energy (i.e. is not variation
+Extra2:
+- Derivation summary
+	- Write the Hamiltonian as a solvable function with an added perturbation $\hat H=\hat H^{(0)}+\hat H^{(1)}$
+	- The wavefunction and energy can be written in simialr fashion 
+
+$$\begin{align*}
+&E=E^{(0)}+E^{(1)}+E^{(2)}+\dots\\
+&\psi=\psi^{(0)}+\psi^{(1)}+\psi^{(2)}+\dots\end{align*}$$
+
+
+We know or can find $\hat H^{(0)}, E^{(0)},\psi^{(0)}$
+Lesson: Approximation Methods
+Course: CHEM4502
+<!--ID: 1658631680006-->
+END
+
+## Equations
+
+START
+Basic-lesson
+Front: 
+### Trial Wavefunction Equation
+
+
+
+Back: 
+$$\psi =\sum\limits_{i}c_{i}\phi_{i}$$
+Extra1:
+Use: Linear combination of simpler functions
+Extra2:
+- $\phi_{i}$=Basis set (Collection of basis functions)
+- $c_{i}$= Scales functions
+Lesson: Approximation Methods
+Course: CHEM4502
+<!--ID: 1658631680009-->
+END
+
+START
+Basic-lesson
+Front: 
+### Variational Equation
+
+
+
+Back: 
+$$E_{0}\leq \frac{\int\psi_{i}\hat H \psi_{i}dr}{\int\psi_{0}^{2}dr}$$
+Extra1:
+Use: Approximated energies are always the upper limits to the real energy, and are calculated according the formula above:
+Extra2:
+Add definitions of variables later
+Lesson: Approximation Methods
+Course: CHEM4502
+<!--ID: 1658631680012-->
+END
+
+
+START
+Basic-lesson
+Front: 
+### The Secular Equation / Determinant
+
+
+Back: 
+
+$$\sum\limits_{i=1}^{N}c_{i}(H_{ij}-ES_{ij})=0$$
+
+
+Extra1:
+Use: Relates the coefficients of trial wavefunctions to their energies
+Extra2:
+- Determinant Format: 
+$$
+\begin{vmatrix}H_{11}-ES_{11}  & H_{12}-ES_{12} & \dots & H_{1N}-ES_{1N} \\ H_{21}-ES_{21} & H_{22}-ES_{22} & \dots \\ \vdots & \vdots & \ddots \\ H_{N1}-ES_{N1} &  &  & H_{NN}-ES_{NN}\end{vmatrix}=0
+$$
+
+Lesson: Approximation Methods
+Course: CHEM4502
+<!--ID: 1658631680017-->
+END
+
+START
+Basic-lesson
+Front: 
+### Perturbational Energies Eqn
+Back: 
+
+$$E^{(1)}=\int \psi^{\star (0)} \hat H^{(1)} \psi^{(0)}$$
+
+
+Extra1:
+Use: Calculated from unperturbed wavefunction and is a correction to Hamiltonian
+Extra2:
+Variables later
+Lesson: Approximation Methods
+Course: CHEM4502
+<!--ID: 1658631680020-->
+END
+
+START
+Basic-lesson
+Front: 
+### Hartree Product Wavefunction Eqn
+
+
+
+Back: 
+$$\Psi_{HP}=\phi_{1}\phi_{2}\dots \phi_{N}$$
+Extra1:
+Use: The total wavefunction for a system is the product of the individual wavefunctions within it.
+Extra2:
+
+Lesson: Approximation Methods
+Course: CHEM4502
+<!--ID: 1658631680024-->
+END
+
+START
+Basic-lesson
+Front: 
+### Hamiltonian of Entire System Using Hartree-Fock Methods Formulas
+
+
+Back: 
+
+
+$$\hat H=\sum\limits_{i=1}^{N}h_{i}$$
+$$h_{i}=-\frac{1}{2}\nabla_{i}^{2}-\sum\limits_{k=1}^{M}\frac{Z_{k}}{r_{ik}}+V_{i}\{j\}$$
+$$V_{i}\{j\}=\sum\limits_{i\neq j}\int\frac{\rho_{j}}{r_{ij}}dr$$
+
+Extra1:
+Use: The Hamiltonian of the entire system is the sum of one-electron Hamiltonian, which themselves describe an electron interacting with all nuclei and an average field from the other electrons
+Extra2:
+- $h_{i}$ is the one electron Hamiltonian
+- $M$ is the total number of nuclei present
+- $Z_{k}$ is the charge of the $k^{t h}$ nucleus
+- $\rho_{j}$: electron density of electron j
+Lesson: Approximation Methods
+Course: CHEM4502
+<!--ID: 1658631680028-->
+END
+
+START
+Basic-lesson
+Front: 
+### Corrected Hartree SCF Formulas
+
+Back: 
+
+$$\hat H=\sum\limits_{i=1}^{N}f_{i}$$
+$$f_{i}=-\frac{1}{2}\nabla_{i}^{2}-\sum\limits_{k=1}^{M}\frac{Z_{k}}{r_{ik}}+V_{i}\{j\}$$
+
+Extra1:
+
+Extra2:
+Variables later
+Lesson: Approximation Methods
+Course: CHEM4502
+<!--ID: 1658631680032-->
+END
+

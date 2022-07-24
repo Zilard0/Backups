@@ -69,7 +69,8 @@
       "Weekly Review/Aramco": "",
       "Summer 2022/CHEM4502/Summaries": "",
       "Summer 2022/CHEM4502/Anki Cards": "",
-      "Dashboards": ""
+      "Dashboards": "",
+      "Coding/Java Coursera": ""
     },
     "FOLDER_TAGS": {
       "Coding": "",
@@ -102,7 +103,8 @@
       "Weekly Review/Aramco": "",
       "Summer 2022/CHEM4502/Summaries": "",
       "Summer 2022/CHEM4502/Anki Cards": "",
-      "Dashboards": ""
+      "Dashboards": "",
+      "Coding/Java Coursera": ""
     },
     "Syntax": {
       "Begin Note": "START",
@@ -143,7 +145,10 @@
     "Pasted image 20220629231628.png",
     "Pasted image 20220628034920.png",
     "Pasted image 20220628035727.png",
-    "Pasted image 20220628060104.png"
+    "Pasted image 20220628060104.png",
+    "Approximation Methods - GTO vs STO.png",
+    "Approximation Methods - LC of Gaussian Functions.png",
+    "Approximation Methods - Hartree SCF.png"
   ],
   "File Hashes": {
     "Templates/student_note_taking/Course Outline.md": "7e8890a47b3bbb7c570897a2172b4f37",
@@ -348,7 +353,7 @@
     "Summer 2022/CHEM4502/Anki Cards/Chapter 1 Anki Cards - Done.md": "c73a12e5f2ed444f3612bcb3100b8f60",
     "Dashboards/Daily.md": "cc3e7c696c33c731bb8b65aa0425d62e",
     "Dashboards/Fall 2022.md": "d41d8cd98f00b204e9800998ecf8427e",
-    "Dashboards/Summer 2022.md": "e71871f0a14dcb72b33ecc1f0d7370cd",
+    "Dashboards/Summer 2022.md": "90bc061877b79689a6ac613cd53ab66b",
     "Dashboards/Dashboard.md": "bc72aabaaf4da190a580adea5ba647bb",
     "Summer 2022/CHEM4502/Anki Cards/Untitled.md": "c2f8a178e23025340c8fe8a2951a9193",
     "Dashboards/Chapters 3 and 4 Anki Cards - Done.md": "f03e1ee99eb79bf8245e17b5f442aa84",
@@ -360,8 +365,18 @@
     "Summer 2022/CHEM4502/Anki Cards/Math Chapter B Anki Cards - Done.md": "837ea6e349fa0ff0b9e70178f3f87ce8",
     "Dashboards/Approximation Methods.md": "ba4196e8aa18a63f0b2906e8dc8a76d3",
     "Dashboards/Resources to Help Succeed.md": "e44bff83a7828bbc7226c06930e0888b",
-    "Dashboards/Java Programming and Software Engineering Fundamentals (Coursera).md": "5bede5fcdbc3c27c3d52ab289f8e7e35",
-    "Daily Notes/2022-07-22.md": "b83eef358a83b0a68e597f2e6fc93c6f"
+    "Dashboards/Java Programming and Software Engineering Fundamentals (Coursera).md": "20ba87ec01585d733e39cb2aa6e21e6c",
+    "Daily Notes/2022-07-22.md": "9fca9c43cd1619fd0bef900786f66ff8",
+    "Summer 2022/CHEM4502/Anki Cards/Approximation Methods Anki Cards - Done.md": "e9c3ebd2b237397a50d5439cfdb2f361",
+    "Summer 2022/CHEM4502/Chapters/Approximation Methods.md": "a91de39fbba6bcbfde31e4ff91bed3a7",
+    "Coding/Java Coursera/What Is HTML.md": "c68f5299ad1d3b036dd55c6e6d571922",
+    "Coding/Java Coursera/Try it! Build a My Interests Web Page.md": "d41d8cd98f00b204e9800998ecf8427e",
+    "Coding/Java Coursera/Using CodePen.md": "d41d8cd98f00b204e9800998ecf8427e",
+    "Coding/Java Coursera/Using Forums - How to Ask for Help Effectively.md": "1819275c0a510e2d35ae05540d220b57",
+    "Coding/Java Coursera/Tips for Learning Programming.md": "d41d8cd98f00b204e9800998ecf8427e",
+    "Coding/Java Coursera/Resources to Help Succeed.md": "63008d4ca5ca40618daa369e7b13164b",
+    "Coding/Java Coursera/Metadata and Sectioning Elements.md": "730932f5ecc5f4d23d2617319fe80979",
+    "Daily Notes/2022-07-23.md": "508b9d2a2b4896a086e92beaf453575d"
   },
   "fields_dict": {
     "AnKing": [

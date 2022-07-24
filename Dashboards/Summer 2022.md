@@ -45,7 +45,7 @@ obsidianUIMode: preview
 	- [[Chapter 5 Anki Cards - Done]]
 	- [[Chapter 13 Anki Cards - Done]]
 	- [[Math Chapter B Anki Cards - Done]]
-	- [[Approximation Methods Anki Cards]]
+	- [[Approximation Methods Anki Cards - Done]]
 
 # HSCI 1815 - History of Science
 

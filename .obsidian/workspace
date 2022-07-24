@@ -4,13 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "2a76550b3e8c48a0",
+        "id": "26f8d2f0da478354",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Dashboards/Dashboard.md",
-            "mode": "preview",
+            "file": "Summer 2022/CHEM4502/Chapters/Approximation Methods.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "df081a9abce4dc11",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Summer 2022/CHEM4502/Anki Cards/Approximation Methods Anki Cards - Done.md",
+            "mode": "source",
             "source": false
           }
         }
@@ -94,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dashboards/Dashboard.md",
+                "file": "Summer 2022/CHEM4502/Anki Cards/Approximation Methods Anki Cards - Done.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Dashboards/Dashboard.md",
+                "file": "Summer 2022/CHEM4502/Anki Cards/Approximation Methods Anki Cards - Done.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dashboards/Dashboard.md"
+                "file": "Summer 2022/CHEM4502/Anki Cards/Approximation Methods Anki Cards - Done.md"
               }
             }
           },
@@ -186,12 +198,12 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "2a76550b3e8c48a0",
+  "active": "df081a9abce4dc11",
   "lastOpenFiles": [
     "Summer 2022/CHEM4502/Chapters/Approximation Methods.md",
-    "Summer 2022/CHEM4502/Anki Cards/Approximation Methods Anki Cards.md",
-    "Dashboards/Summer 2022.md",
+    "Summer 2022/CHEM4502/Anki Cards/Approximation Methods Anki Cards - Done.md",
     "Dashboards/Dashboard.md",
+    "Dashboards/Summer 2022.md",
     "Dashboards/Fall 2022.md",
     "Dashboards/Java Programming and Software Engineering Fundamentals (Coursera).md",
     "Coding/Java Coursera/Metadata and Sectioning Elements.md",
