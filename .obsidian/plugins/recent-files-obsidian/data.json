@@ -2,7 +2,27 @@
   "recentFiles": [
     {
       "basename": "Approximation Methods",
-      "path": "Dashboards/Approximation Methods.md"
+      "path": "Summer 2022/CHEM4502/Chapters/Approximation Methods.md"
+    },
+    {
+      "basename": "Dashboard",
+      "path": "Dashboards/Dashboard.md"
+    },
+    {
+      "basename": "Fall 2022",
+      "path": "Dashboards/Fall 2022.md"
+    },
+    {
+      "basename": "Java Programming and Software Engineering Fundamentals (Coursera)",
+      "path": "Dashboards/Java Programming and Software Engineering Fundamentals (Coursera).md"
+    },
+    {
+      "basename": "Metadata and Sectioning Elements",
+      "path": "Coding/Java Coursera/Metadata and Sectioning Elements.md"
+    },
+    {
+      "basename": "Using CodePen",
+      "path": "Coding/Java Coursera/Using CodePen.md"
     },
     {
       "basename": "weekly",
@@ -37,10 +57,6 @@
       "path": "Templates/Temporal/time.md"
     },
     {
-      "basename": "Dashboard",
-      "path": "Dashboards/Dashboard.md"
-    },
-    {
       "basename": "2022-07-22",
       "path": "Daily Notes/2022-07-22.md"
     },
@@ -49,36 +65,24 @@
       "path": "Daily Notes/2022-07-23.md"
     },
     {
-      "basename": "Java Programming and Software Engineering Fundamentals (Coursera)",
-      "path": "Dashboards/Java Programming and Software Engineering Fundamentals (Coursera).md"
-    },
-    {
-      "basename": "Metadata and Sectioning Elements",
-      "path": "Dashboards/Metadata and Sectioning Elements.md"
-    },
-    {
       "basename": "Try it! Build a My Interests Web Page",
-      "path": "Dashboards/Try it! Build a My Interests Web Page.md"
+      "path": "Coding/Java Coursera/Try it! Build a My Interests Web Page.md"
     },
     {
       "basename": "What Is HTML",
-      "path": "Dashboards/What Is HTML.md"
-    },
-    {
-      "basename": "Using CodePen",
-      "path": "Dashboards/Using CodePen.md"
+      "path": "Coding/Java Coursera/What Is HTML.md"
     },
     {
       "basename": "Resources to Help Succeed",
-      "path": "Dashboards/Resources to Help Succeed.md"
+      "path": "Coding/Java Coursera/Resources to Help Succeed.md"
     },
     {
       "basename": "Using Forums - How to Ask for Help Effectively",
-      "path": "Dashboards/Using Forums - How to Ask for Help Effectively.md"
+      "path": "Coding/Java Coursera/Using Forums - How to Ask for Help Effectively.md"
     },
     {
       "basename": "Tips for Learning Programming",
-      "path": "Dashboards/Tips for Learning Programming.md"
+      "path": "Coding/Java Coursera/Tips for Learning Programming.md"
     },
     {
       "basename": "Chapter 9 Anki Cards - Done",
@@ -195,10 +199,6 @@
     {
       "basename": "2022-07-13",
       "path": "Daily Notes/2022-07-13.md"
-    },
-    {
-      "basename": "2022-07-18",
-      "path": "Daily Notes/2022-07-18.md"
     }
   ],
   "omittedPaths": [],

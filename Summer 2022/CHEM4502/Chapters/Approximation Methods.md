@@ -4,7 +4,7 @@ publish: true
 aliases: 
 ---
 # Approximation Methods
-Created: ### [[2022-07-14]]
+Created: [[2022-07-14]]
 ___
 ## Concepts
 - **Basis Function**: A function used as a component for a trial wavefunction
@@ -103,10 +103,56 @@ ___
 	- Can be added to any basis set
 		- Pople-type: designated by + (6-31+G)
 		- cc-type: some diffuse functions are already present; additional ones added via aug prefix (aug-cc=PVDZ)
+- Multiconfigurational SCF (MCSCF or CASSCF)
+	- Considers more than one electron configuration for a  (All possible configs)
+	- Generates a linear combination of configurations; analogous combining orbitals in MO theory
+	- Employed by defining an "active space," or a number of electrons and set of orbitals in which they can be distributed
+	- "CAS" in CASSCF stands for complete active space
+	- Each configuration is a separate HF Calculation; MCSCF is quite expensive and difficult to employ
+- Configuration Interaction (CI)
+	- Full CI is MCSCF with all electrons and all orbitals; all configurations are considered
+	- Full CI is the best calculation we do
+	- CI can be truncated:
+		- CIS (singles): one electron excitations; not useful for ground states, but useful for excited states
+		- CID (doubles): two electron excitations; can be used for ground states
+		- CISD: both single and double excitations
+	- Full CI while theoretically good, is prohibitive to do for all but the smallest molecules
+	- CI methods are not size consistent:
+		- CIQ (quadruples) gives different energies than adding two analogous CID calculations
+		- Size inconsistency is problematic when using truncated CI
+- Coupled Cluster (CC) methods
+	- Related but not identical to CI
+	- Maintains size consistency
+	- Is expensive, by can be truncated
+	- CC methods
+		- CCD: double excitations; implicitly gives $MP \infty$ energies
+		- CCSD: singles and doubles
+		- CCSDT: includes triple excitations, which are important for accuracy; very expensive
+		- CCSD (T): includes simplified triples; is now often used as a gold-standard calculation 
+- Density functional theory (DFT):
+	- Not an ab inition method (HF-based), so there is no guarantee how results will behave
+	- Based on the electron density (a real quantity), which Kohn and Sham used to calculate the total energy
+	- The key feature is the QM exchange-correlation energy ($E_{xc}$), which must ultimately be approximated
+	- In practice DFT is still done like SCF methods
+	- Unlike HF, there is no inherent flaw in DFT, so it could be correct
+	- Many versions of DFT have been developed:
+		- All essentially differ in their means of estimating $E_{xc}$
+		- Different methods typically have an exchange functional and a correlation functinal; one pairs two to get the full model (e.g. B+LYP=BLYP)
+- Hybrid Functionals (e.g. B3LYP): mix HF exchange with DFT exchange
+	- Not "pure" DFT, as they employ parameters which are often set
+	- B3LYP is especially common; it usually strikes a good balance between efficiency/cost and accuracy
+
+- **How does one select a method?**
+	- Consider cost and system requirements; desired accuracy; time available; important properties
+
+- **How does one compare methods?**
+	- Many ways; one simple way is to compare results for the ionization energy of He
+
+
 
 ### Modern Implementations 
 - Hartree-Fock self-consistent field (SCF) methods:
-	- Model electron clouds using averaged electron densities, with teh final solution achieved iteratively
+	- Model electron clouds using averaged electron densities, with the final solution achieved iteratively
 - Semi-empirical: Use pre-defined integrals and basis sets to reduce requisite calculations; solutions are quicker but lower quality
 - Perturbation theory: A solvable model is used as a starting point, with additional terms added to estimate differences between the model and the real complicated system
 - MCSCF: SCF Calculations are performed for different electron configurations, and the results are themselves linearly combined; CI is MCSCF with all configuration considered
@@ -116,7 +162,47 @@ ___
 - **Note that one should always compare approximated results to known (preferably experimental) results as a test of quality**
 
 
-## Eqns
+### Hartree SCF
+- Steps
+	- Make initial guess wavefunctions for each electron
+	- Build $h_{i}$ operators for each wavefunction
+	- Solve Schrödinger equation for each wavefunction
+	- Use new set of wavefunctions to generate new set of $h_{i}$
+	- Repeat until wavefunctions converge
+- Two major flaws
+	- Electron-electron repulsion is double countered; can be corrected
+	- Does not account for spin, indistinguishability; can be corrected using Slater determinants ala Fock (to give Hartree-Fock theory) and create Fock operators ($f_{i}$)
+
+![[Approximation Methods - Hartree SCF.png|500]]
+
+
+### Semiemprical methods (e.g. AM1, PM3)
+- Modify HF theory and simplify integrals
+- Small, predefined basis sets, adjustable parameters used to estimate certain types of integrals
+- Parameter values chosen to recreate certain experimental results
+- Relatively fast, applicable to large systems
+- Accuracy is suspect (order of magnitude calculations)
+
+
+### Pertrubation THeory
+- Solutions are based on simple, solvable systems
+- Simple systems are perturbed, resulting changes are determined
+- Works best when perturbations re small
+- Does not provide upper limits to energy (i.e. is not variational)
+- Derivation summary
+	- Write the Hamiltonian as a solvable function with an added perturbation $\hat H=\hat H^{(0)}+\hat H^{(1)}$
+	- The wavefunction and energy can be written in simialr fashion 
+
+$$\begin{align*}
+&E=E^{(0)}+E^{(1)}+E^{(2)}+\dots\\
+&\psi=\psi^{(0)}+\psi^{(1)}+\psi^{(2)}+\dots\end{align*}$$
+
+
+We know or can find $\hat H^{(0)}, E^{(0)},\psi^{(0)}$
+
+
+
+## Equations
 
 ### Trial Wavefunction
 Use: Linear combination of simpler functions
@@ -152,6 +238,21 @@ $$\Psi_{HP}=\phi_{1}\phi_{2}\dots \phi_{N}$$
 Use: The Hamiltonian of the entire system is the sum of one-electron Hamiltonian, which themselves describe an electon interacting with all nuclei and an average field from the other electrons
 $$\hat H=\sum\limits_{i=1}^{N}h_{i}$$
 $$h_{i}=-\frac{1}{2}\nabla_{i}^{2}-\sum\limits_{k=1}^{M}\frac{Z_{k}}{r_{ik}}+V_{i}\{j\}$$
+$$V_{i}\{j\}=\sum\limits_{i\neq j}\int\frac{\rho_{j}}{r_{ij}}dr$$
 - $h_{i}$ is the one electron Hamiltonian
 - $M$ is the total number of nuclei present
 - $Z_{k}$ is the charge of the $k^{t h}$ nucleus
+- $\rho_{j}$: electron density of electron j
+
+### Corrected Hartree SCF Formulas
+
+$$\hat H=\sum\limits_{i=1}^{N}f_{i}$$
+$$f_{i}=-\frac{1}{2}\nabla_{i}^{2}-\sum\limits_{k=1}^{M}\frac{Z_{k}}{r_{ik}}+V_{i}\{j\}$$
+
+
+## Examples
+
+7.6: ![[Pasted image 20220723181511.png|400]]
+$$\hat H^{(0)}=-\frac{h^{2}}{2m}\frac{d^{2}}{dx^{2}}$$
+$$\psi^{(0)}=\sqrt{\frac{2}{a}}\sin\frac{n \pi x}{a}$$
+$$E^{(0)}=\frac{h^{2}n^{2}}{8ma^{2}}$$
