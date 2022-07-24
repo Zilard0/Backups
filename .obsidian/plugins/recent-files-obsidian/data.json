@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Chapter 9",
+      "path": "Summer 2022/CHEM4502/Chapters/Chapter 9.md"
+    },
+    {
       "basename": "Chapter 5",
       "path": "Summer 2022/CHEM4502/Chapters/Chapter 5.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Daily",
       "path": "Dashboards/Daily.md"
-    },
-    {
-      "basename": "2022-07-10",
-      "path": "Daily Notes/2022-07-10.md"
     }
   ],
   "omittedPaths": [],
