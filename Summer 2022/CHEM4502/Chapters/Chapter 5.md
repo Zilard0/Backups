@@ -62,7 +62,7 @@ $$\tilde v=\frac{v}{c} \to \text{unit is }cm^{-1} $$
 #### 3-D volume element in spherical coordinates Integration
 
 $$dxdydz=(r^{2}dr)(\sin\theta d \theta)(d\phi) \to\underbrace{\int_{0}^{2\pi}}_\phi\underbrace{\int_{0}^{\pi}}_\theta\underbrace{\int_{0}^{r}}_{r} r^{2}dr\sin(\theta)d\theta d\phi$$
-* A point in a spherical coordinate system is specifed by the coordinates $r, \theta, \phi$ 
+* A point in a spherical coordinate system is specified by the coordinates $r, \theta, \phi$ 
 
 #### Reduced mass Eqn
 Use: Effective mass at the center of mass of a multi body object.
